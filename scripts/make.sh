@@ -6,6 +6,7 @@ if [ -z "$1" ]; then
 fi
 
 ../scripts/compile.sh $1
+../scripts/genwitness.sh $1
 ../scripts/genkeys.sh $1
 ../scripts/genproof.sh $1
 ../scripts/verifyproof.sh
