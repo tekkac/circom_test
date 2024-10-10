@@ -1,3 +1,4 @@
+use starknet::ContractAddress;
 use super::groth16_verifier_constants::{N_PUBLIC_INPUTS, vk, ic, precomputed_lines};
 
 #[starknet::interface]
@@ -7,8 +8,17 @@ trait IGroth16VerifierBN254<TContractState> {
     ) -> bool;
 }
 
+#[starknet::interface]
+trait IExternalTrait<TContractState> {
+    fn is_verified(
+        ref self: TContractState, user: ContractAddress, public_inputs: Span<u256>,
+    ) -> bool;
+}
+
 #[starknet::contract]
 mod Groth16VerifierBN254 {
+    use core::hash::HashStateTrait;
+    use core::pedersen::PedersenTrait;
     use starknet::SyscallResultTrait;
     use starknet::storage::{
         StoragePointerReadAccess, StoragePointerWriteAccess, StoragePathEntry, Map
@@ -27,6 +37,21 @@ mod Groth16VerifierBN254 {
     #[storage]
     struct Storage {
         verified: Map<(ContractAddress, felt252), bool>,
+    }
+
+    #[abi(embed_v0)]
+    impl ExternalImpl of super::IExternalTrait<ContractState> {
+        fn is_verified(
+            ref self: ContractState, user: ContractAddress, public_inputs: Span<u256>,
+        ) -> bool {
+            let mut hasher = PedersenTrait::new(0);
+            for data in public_inputs {
+                hasher = hasher.update((*data).low.into());
+                hasher = hasher.update((*data).high.into());
+            };
+            let public_input_hash = hasher.finalize();
+            self.verified.entry((user, public_input_hash)).read()
+        }
     }
 
     #[abi(embed_v0)]
@@ -95,13 +120,20 @@ mod Groth16VerifierBN254 {
             }
         }
     }
+
     #[generate_trait]
     impl InternalFunctions of InternalFunctionsTrait {
         fn process_public_inputs(
             ref self: ContractState, user: ContractAddress, public_inputs: Span<u256>,
         ) { // Process the public inputs with respect to the caller address (user).
-        // Update the storage, emit events, call other contracts, etc.
-
+            // Update the storage, emit events, call other contracts, etc.
+            let mut hasher = PedersenTrait::new(0);
+            for data in public_inputs {
+                hasher = hasher.update((*data).low.into());
+                hasher = hasher.update((*data).high.into());
+            };
+            let public_input_hash = hasher.finalize();
+            self.verified.entry((user, public_input_hash)).write(true);
         }
     }
 }
