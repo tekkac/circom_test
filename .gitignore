@@ -2,3 +2,7 @@
 **/private/*.*
 !**/.gitkeep
 node_modules
+.env
+
+**/target
+build/
