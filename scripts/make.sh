@@ -5,6 +5,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
+bun install
 ../scripts/compile.sh $1
 ../scripts/genwitness.sh $1
 ../scripts/genkeys.sh $1

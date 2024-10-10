@@ -5,4 +5,4 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-circom src/$1.circom --r1cs --wasm --sym -o compiled
+circom circuits/$1.circom --r1cs --wasm --sym -o compiled

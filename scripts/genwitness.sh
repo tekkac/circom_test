@@ -5,5 +5,5 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-node compiled/$1_js/generate_witness.js compiled/$1_js/$1.wasm private/input.json private/witness.wtns
+node compiled/$1_js/generate_witness.js compiled/$1_js/$1.wasm circuits/input.json private/witness.wtns
 snarkjs wtns export json private/witness.wtns private/witness.json
