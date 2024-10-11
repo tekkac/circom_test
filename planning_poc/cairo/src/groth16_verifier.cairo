@@ -1,22 +1,18 @@
-use starknet::ContractAddress;
 use super::groth16_verifier_constants::{N_PUBLIC_INPUTS, vk, ic, precomputed_lines};
+use starknet::ContractAddress;
 
 #[starknet::interface]
-trait IGroth16VerifierBN254<TContractState> {
+pub trait IGroth16VerifierBN254<TContractState> {
     fn verify_groth16_proof_bn254(
         ref self: TContractState, full_proof_with_hints: Span<felt252>,
     ) -> bool;
-}
-
-#[starknet::interface]
-trait IExternalTrait<TContractState> {
     fn is_verified(
         ref self: TContractState, user: ContractAddress, public_inputs: Span<u256>,
     ) -> bool;
 }
 
 #[starknet::contract]
-mod Groth16VerifierBN254 {
+pub mod Groth16VerifierBN254 {
     use core::hash::HashStateTrait;
     use core::pedersen::PedersenTrait;
     use starknet::SyscallResultTrait;
@@ -29,29 +25,13 @@ mod Groth16VerifierBN254 {
     use garaga::utils::calldata::{deserialize_full_proof_with_hints_bn254};
     use super::{N_PUBLIC_INPUTS, vk, ic, precomputed_lines};
 
-
     const ECIP_OPS_CLASS_HASH: felt252 =
-        0x2672f1f079ccbafe1be4a20a76421b509fcfb406cbf6818563ed812edaeb3a3;
+        0x7918f484291eb154e13d0e43ba6403e62dc1f5fbb3a191d868e2e37359f8713;
     use starknet::ContractAddress;
 
     #[storage]
     struct Storage {
         verified: Map<(ContractAddress, felt252), bool>,
-    }
-
-    #[abi(embed_v0)]
-    impl ExternalImpl of super::IExternalTrait<ContractState> {
-        fn is_verified(
-            ref self: ContractState, user: ContractAddress, public_inputs: Span<u256>,
-        ) -> bool {
-            let mut hasher = PedersenTrait::new(0);
-            for data in public_inputs {
-                hasher = hasher.update((*data).low.into());
-                hasher = hasher.update((*data).high.into());
-            };
-            let public_input_hash = hasher.finalize();
-            self.verified.entry((user, public_input_hash)).read()
-        }
     }
 
     #[abi(embed_v0)]
@@ -118,6 +98,18 @@ mod Groth16VerifierBN254 {
             } else {
                 return false;
             }
+        }
+
+        fn is_verified(
+            ref self: ContractState, user: ContractAddress, public_inputs: Span<u256>,
+        ) -> bool {
+            let mut hasher = PedersenTrait::new(0);
+            for data in public_inputs {
+                hasher = hasher.update((*data).low.into());
+                hasher = hasher.update((*data).high.into());
+            };
+            let public_input_hash = hasher.finalize();
+            self.verified.entry((user, public_input_hash)).read()
         }
     }
 
