@@ -1,5 +1,5 @@
 [package]
-name = "planning_poc"
+name = "planning"
 version = "0.1.0"
 edition = "2024_07"
 
@@ -7,9 +7,15 @@ edition = "2024_07"
 garaga = { git = "https://github.com/keep-starknet-strange/garaga.git" }
 starknet = "2.8.2"
 
+[dev-dependencies]
+snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.31.0" }
+
 [cairo]
 sierra-replace-ids = false
 
 [[target.starknet-contract]]
 casm = true
 casm-add-pythonic-hints = true
+
+[scripts]
+test = "snforge test"

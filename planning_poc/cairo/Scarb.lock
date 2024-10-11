@@ -7,8 +7,22 @@ version = "0.1.0"
 source = "git+https://github.com/keep-starknet-strange/garaga.git#1ed66972c17e57838bd8aec6d305c0e843288cb1"
 
 [[package]]
-name = "planning_poc"
+name = "planning"
 version = "0.1.0"
 dependencies = [
  "garaga",
+ "snforge_std",
+]
+
+[[package]]
+name = "snforge_scarb_plugin"
+version = "0.31.0"
+source = "git+https://github.com/foundry-rs/starknet-foundry.git?tag=v0.31.0#72ea785ca354e9e506de3e5d687da9fb2c1b3c67"
+
+[[package]]
+name = "snforge_std"
+version = "0.31.0"
+source = "git+https://github.com/foundry-rs/starknet-foundry.git?tag=v0.31.0#72ea785ca354e9e506de3e5d687da9fb2c1b3c67"
+dependencies = [
+ "snforge_scarb_plugin",
 ]
