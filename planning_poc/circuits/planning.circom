@@ -5,7 +5,6 @@ include "../../node_modules/circomlib/circuits/comparators.circom";
 template CheckPlanning(N) {
     signal input in[N];
     signal input total;
-    signal output out;
 
     var sum;
     for (var i = 0; i < N; i++) {
@@ -16,8 +15,6 @@ template CheckPlanning(N) {
     lt.in[0] <== total;
     lt.in[1] <== sum;
 
-    out <== lt.out;
-
+    1 === lt.out;
  }
-
  component main {public [total]}= CheckPlanning(4);
