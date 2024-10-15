@@ -1,5 +1,7 @@
 **/private/*/*.*
 **/private/*.*
+**/*/proof.json
+**/*/verification_keys.json
 !**/.gitkeep
 node_modules
 
