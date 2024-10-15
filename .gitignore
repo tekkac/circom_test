@@ -1,7 +1,9 @@
 **/private/*/*.*
 **/private/*.*
-**/*/proof.json
-**/*/verification_keys.json
+**/proof.json
+**/verification_keys.json
+**/compiled/*
+
 !**/.gitkeep
 node_modules
 
