@@ -14,7 +14,7 @@ A Circom circuit with proof generation offline and verification on Starknet.
 
 ```bash
 $ bun install
-$ cd planning_poc
+$ cd planning
 $ ../scripts/make.sh planning
 $ cd ..
 $ ./scripts/garagagen.sh
