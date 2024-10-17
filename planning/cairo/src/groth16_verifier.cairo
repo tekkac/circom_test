@@ -100,6 +100,8 @@ pub mod Groth16VerifierBN254 {
             }
         }
 
+        // TODO: Need to add public info from instance ('year', 'company', etc)
+        // This needs to be a separate contract
         fn is_verified(
             ref self: ContractState, user: ContractAddress, public_inputs: Span<u256>,
         ) -> bool {
