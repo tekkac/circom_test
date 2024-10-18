@@ -1,15 +1,24 @@
 use super::groth16_verifier_constants::{N_PUBLIC_INPUTS, vk, ic, precomputed_lines};
+use starknet::ContractAddress;
 
 #[starknet::interface]
 pub trait IGroth16VerifierBN254<TContractState> {
     fn verify_groth16_proof_bn254(
         ref self: TContractState, full_proof_with_hints: Span<felt252>,
-    ) -> (bool, Span<u256>);
+    ) -> bool;
+    fn is_verified(
+        ref self: TContractState, user: ContractAddress, public_inputs: Span<u256>,
+    ) -> bool;
 }
 
 #[starknet::contract]
 pub mod Groth16VerifierBN254 {
+    use core::hash::HashStateTrait;
+    use core::pedersen::PedersenTrait;
     use starknet::SyscallResultTrait;
+    use starknet::storage::{
+        StoragePointerReadAccess, StoragePointerWriteAccess, StoragePathEntry, Map
+    };
     use garaga::definitions::{G1Point, G1G2Pair};
     use garaga::groth16::{multi_pairing_check_bn254_3P_2F_with_extra_miller_loop_result};
     use garaga::ec_ops::{G1PointTrait, G2PointTrait, ec_safe_add};
@@ -18,15 +27,18 @@ pub mod Groth16VerifierBN254 {
 
     const ECIP_OPS_CLASS_HASH: felt252 =
         0x7918f484291eb154e13d0e43ba6403e62dc1f5fbb3a191d868e2e37359f8713;
+    use starknet::ContractAddress;
 
     #[storage]
-    struct Storage {}
+    struct Storage {
+        verified: Map<(ContractAddress, felt252), bool>,
+    }
 
     #[abi(embed_v0)]
     impl IGroth16VerifierBN254 of super::IGroth16VerifierBN254<ContractState> {
         fn verify_groth16_proof_bn254(
             ref self: ContractState, full_proof_with_hints: Span<felt252>,
-        ) -> (bool, Span<u256>) {
+        ) -> bool {
             // DO NOT EDIT THIS FUNCTION UNLESS YOU KNOW WHAT YOU ARE DOING.
             // ONLY EDIT THE process_public_inputs FUNCTION BELOW.
             let fph = deserialize_full_proof_with_hints_bn254(full_proof_with_hints);
@@ -77,11 +89,45 @@ pub mod Groth16VerifierBN254 {
                 mpcheck_hint,
                 small_Q
             );
-            if check {
-                return (true, groth16_proof.public_inputs);
+            if check == true {
+                self
+                    .process_public_inputs(
+                        starknet::get_caller_address(), groth16_proof.public_inputs
+                    );
+                return true;
             } else {
-                return (false, [].span());
+                return false;
             }
+        }
+
+        // TODO: Need to add public info from instance ('year', 'company', etc)
+        // This needs to be a separate contract
+        fn is_verified(
+            ref self: ContractState, user: ContractAddress, public_inputs: Span<u256>,
+        ) -> bool {
+            let mut hasher = PedersenTrait::new(0);
+            for data in public_inputs {
+                hasher = hasher.update((*data).low.into());
+                hasher = hasher.update((*data).high.into());
+            };
+            let public_input_hash = hasher.finalize();
+            self.verified.entry((user, public_input_hash)).read()
+        }
+    }
+
+    #[generate_trait]
+    impl InternalFunctions of InternalFunctionsTrait {
+        fn process_public_inputs(
+            ref self: ContractState, user: ContractAddress, public_inputs: Span<u256>,
+        ) { // Process the public inputs with respect to the caller address (user).
+            // Update the storage, emit events, call other contracts, etc.
+            let mut hasher = PedersenTrait::new(0);
+            for data in public_inputs {
+                hasher = hasher.update((*data).low.into());
+                hasher = hasher.update((*data).high.into());
+            };
+            let public_input_hash = hasher.finalize();
+            self.verified.entry((user, public_input_hash)).write(true);
         }
     }
 }
