@@ -1,7 +1,6 @@
 **/private/*/*.*
 **/private/*.*
-**/proof.json
-**/verification_keys.json
+**/public/*.json
 **/compiled/*
 
 !**/.gitkeep

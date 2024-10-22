@@ -8,64 +8,64 @@ pub const vk: Groth16VerifyingKey =
     Groth16VerifyingKey {
         alpha_beta_miller_loop_result: E12D {
             w0: u288 {
-                limb0: 0xfc40368398ce000e56c02354,
-                limb1: 0xdf5c2b3c7a59aa3c25b425da,
-                limb2: 0x1eaa3ad064d3b6c5
+                limb0: 0xd2424fc090ae02143f68e68a,
+                limb1: 0x8aba12b914b67d5299374a37,
+                limb2: 0x2e3c6232133a6b6d
             },
             w1: u288 {
-                limb0: 0x22c916d299911ab900f1409d,
-                limb1: 0x90d1f1eed757289a7d147717,
-                limb2: 0x42171d7ffd73d5e
+                limb0: 0xc21fe23a78d9905a0446fcab,
+                limb1: 0xe4e7186409c5ca844e66412d,
+                limb2: 0x2bf2cb027e0eccb0
             },
             w2: u288 {
-                limb0: 0x99d1098add57b5a045adc758,
-                limb1: 0x6259a107f03495bea1b14b40,
-                limb2: 0xb5e4e93ddb89bc
+                limb0: 0xa110893ee6f548d2d6439204,
+                limb1: 0x3469d4d8591fb7f4670e5e8b,
+                limb2: 0x928cd7e22439b29
             },
             w3: u288 {
-                limb0: 0xb441b7f9bd5b54fbb181344a,
-                limb1: 0x7107aa2adc0eb32019450aa4,
-                limb2: 0x1bd82af065eb7941
+                limb0: 0x4514ced46c139f5a7d6807f6,
+                limb1: 0x242b88b1965c64bd2c184bf8,
+                limb2: 0x259ac3fda0598d47
             },
             w4: u288 {
-                limb0: 0xb7a058faf0278a21ed4d246a,
-                limb1: 0x45a1e5bc017ce9960b375dc9,
-                limb2: 0xa9c378c50f4928e
+                limb0: 0xae58b5ff509b2ba310018c29,
+                limb1: 0xe966e6b3b1e9fff84ec5caea,
+                limb2: 0xf6a8b203517251a
             },
             w5: u288 {
-                limb0: 0x16f10f90a274edeaa37d45bd,
-                limb1: 0xb885598ae6a58641b660116c,
-                limb2: 0x2f7c558d6db5d281
+                limb0: 0x2d37f1615af4098c5b06bfca,
+                limb1: 0x5954874213761896bf2e00fb,
+                limb2: 0xdb30db5c77324c1
             },
             w6: u288 {
-                limb0: 0x9ba1e634c7369c3602c0c99b,
-                limb1: 0x23a6f197d22af45097d83a87,
-                limb2: 0x68bc27b76c60b0c
+                limb0: 0x786e7b1a4a8c1385caae28f2,
+                limb1: 0xe37af1ee2d596502e5964b58,
+                limb2: 0x20ff4fd96d559b82
             },
             w7: u288 {
-                limb0: 0x64d0cf424865e7b137c1530,
-                limb1: 0x7c7410593b291e640824ffa7,
-                limb2: 0x2f292de0f5fc7db3
+                limb0: 0xba4d61dd635971768006b3bc,
+                limb1: 0x88beb195b50197e92bd4fc78,
+                limb2: 0x21a2f6de35e6ca11
             },
             w8: u288 {
-                limb0: 0x2aec963ae9f0a1fcab13e143,
-                limb1: 0x1b8dbb444fd7b5fa8ad7e99,
-                limb2: 0x19930a75d5e33686
+                limb0: 0x4d01fa9715dd07f85cd8932a,
+                limb1: 0xd9279e708bb109eb9b65b952,
+                limb2: 0x4d97549de66e33b
             },
             w9: u288 {
-                limb0: 0xf51d0808432ead3cdf82e089,
-                limb1: 0xed62e9af2e27b0ea38f13b7c,
-                limb2: 0x2d8b66bff3960ae
+                limb0: 0xf389732316721badb9659316,
+                limb1: 0x7c7a593c28ae80b93ebe7a1e,
+                limb2: 0x13577ac627101992
             },
             w10: u288 {
-                limb0: 0x65e24ebb757bdee965a2fc3d,
-                limb1: 0x266e3e5c0da59f2c1f70d82f,
-                limb2: 0x2a859644f72c0bd4
+                limb0: 0x1a614a34f742f08b110e36a,
+                limb1: 0x8a47c4fdf3a9d5d1ff9f0d06,
+                limb2: 0x20ee76a37c95e41
             },
             w11: u288 {
-                limb0: 0x5e7299553f7a25f2e10ec418,
-                limb1: 0x1d2271a38a9b882bfc8d54cb,
-                limb2: 0x1f2bf02d79f456aa
+                limb0: 0x2ff6118af9b835efaca96db0,
+                limb1: 0xe6ffa9b2388478fafdf4daeb,
+                limb2: 0x6b573975b6db1a8
             }
         },
         gamma_g2: G2Point {
@@ -96,27 +96,27 @@ pub const vk: Groth16VerifyingKey =
         },
         delta_g2: G2Point {
             x0: u384 {
-                limb0: 0x724677592a4af5d91985e793,
-                limb1: 0x837b4af65dea087ae37e9443,
-                limb2: 0x1bcfca2d21edcf5f,
+                limb0: 0xc294c2f247d9e203859937c8,
+                limb1: 0x1e714b711008305305623a13,
+                limb2: 0xc7ae9d6d8573b5b,
                 limb3: 0x0
             },
             x1: u384 {
-                limb0: 0x8161cca42114c9a6eef754f8,
-                limb1: 0x39e439ad59048be6e637f292,
-                limb2: 0x2a3b7720d5ac9af4,
+                limb0: 0xb9212859f4d8c0f520319a4b,
+                limb1: 0x89bda5625a3dacd30ab06cf7,
+                limb2: 0x1bb58bd8a35eeea5,
                 limb3: 0x0
             },
             y0: u384 {
-                limb0: 0x73d960975a82f9d3c5b53ddb,
-                limb1: 0xbd5a7b0e3bb0b31a2cf12b1b,
-                limb2: 0x2b8d117fc87e89c4,
+                limb0: 0xc4cb8e93c4e08c5b0950e32f,
+                limb1: 0x608790ed6738c94b96704275,
+                limb2: 0x1e4aefdb60d4645,
                 limb3: 0x0
             },
             y1: u384 {
-                limb0: 0x8283c0d0cf862d180d3b5f07,
-                limb1: 0xae142c21e68c9564318a8e8a,
-                limb2: 0x477267517f484e6,
+                limb0: 0xe21999430d880bbaec4cbee7,
+                limb1: 0x4f8405ddc6f56bdc75df442,
+                limb2: 0x1987f05bc19cb314,
                 limb3: 0x0
             }
         }
@@ -127,43 +127,43 @@ pub const ic: [
     ; 3] = [
     G1Point {
         x: u384 {
-            limb0: 0xf10ab5684e911dc607d7e18f,
-            limb1: 0x2b1909e62e5efb27f45e1696,
-            limb2: 0xa2e357a17cd8e29,
+            limb0: 0xd007d68ea7b21637221a583a,
+            limb1: 0x40452e70bf7b6943f8f9125d,
+            limb2: 0x25de69df4874c3cd,
             limb3: 0x0
         },
         y: u384 {
-            limb0: 0x143c17cde923bb74e4fdfeac,
-            limb1: 0x87d4823a88bb6e61839cd31f,
-            limb2: 0x297cacb87b5c42d1,
+            limb0: 0xbfb8044958dc68bec0f3e878,
+            limb1: 0x6767904bcfdd7b61ef00ab35,
+            limb2: 0x2720efce7bcfefe7,
             limb3: 0x0
         }
     },
     G1Point {
         x: u384 {
-            limb0: 0x92a246d898a531af239d79b4,
-            limb1: 0x5147e3eea61cfc644eef4d46,
-            limb2: 0x2c36de43b8beb420,
+            limb0: 0x2889eddd16b01b8d2c475a8a,
+            limb1: 0x9181185e0db0f2557548347e,
+            limb2: 0x1c4ba06ea9b46b04,
             limb3: 0x0
         },
         y: u384 {
-            limb0: 0x8bd132a12a40854380bba6a1,
-            limb1: 0xe8eb80e5ce557be87fdd9b2c,
-            limb2: 0x1821c0eed3d65f85,
+            limb0: 0x51062a0f32624e4a8e6f4037,
+            limb1: 0xdfc7377b6a8620554c6bc600,
+            limb2: 0x1182513500e4b10f,
             limb3: 0x0
         }
     },
     G1Point {
         x: u384 {
-            limb0: 0x5785ee09eb89e7a4f61eebfd,
-            limb1: 0x7d236950cf1b98f76b931ea6,
-            limb2: 0x22c0835de4d3199d,
+            limb0: 0xeb66802ad73aece0cd927bc5,
+            limb1: 0x985288a3433a8b6d20852e67,
+            limb2: 0xf84813cb00aed7,
             limb3: 0x0
         },
         y: u384 {
-            limb0: 0xf0a8debf5ae2bc64ae269088,
-            limb1: 0xdebf4efbe4794e68d6015ee8,
-            limb2: 0x295167b8acd3acf3,
+            limb0: 0xe4845b0325ee8c8c1a9d0086,
+            limb1: 0x36f0412656f84852a27e740a,
+            limb2: 0x1aee1007df177e01,
             limb3: 0x0
         }
     },
@@ -197,24 +197,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xf39c2c38d9c612df65788349,
-            limb1: 0xfb8acd112b65665f13475914,
-            limb2: 0x11c1d21e8f5c7b24
+            limb0: 0x13bcf6674f975093b94ade34,
+            limb1: 0x18507ed28d3cc6b4c6aa7888,
+            limb2: 0x2b1555c4a270b861
         },
         r0a1: u288 {
-            limb0: 0xa0012c584f233bd129963025,
-            limb1: 0xa06f12b00878e171d28b4c81,
-            limb2: 0xdc187b2918c65a6
+            limb0: 0x95a0df66fc161006473f75de,
+            limb1: 0xbe0cbf52a087a555b7442dad,
+            limb2: 0xc18ca4b74dee76
         },
         r1a0: u288 {
-            limb0: 0x980f03c0e058f1d787591d52,
-            limb1: 0x84e593550b364069a957c5ac,
-            limb2: 0x2552b89ceeecfe5d
+            limb0: 0xa25079dc5f0191769dc4d2f4,
+            limb1: 0x1b6c1ac2b1d680bf1146018a,
+            limb2: 0x2927acc516973549
         },
         r1a1: u288 {
-            limb0: 0x64fbd200d167e5a9f5b8a503,
-            limb1: 0x6109efe53fb303e16149bf56,
-            limb2: 0x7175d6901b2153a
+            limb0: 0x106f70ad544c23ed8ac133a6,
+            limb1: 0x20ed73da1bcb1bec65e6d23d,
+            limb2: 0x21f13938ba7aa6a4
         }
     },
     G2Line {
@@ -263,46 +263,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x74d59e54625a7937730479fe,
-            limb1: 0xbcc578a5561bf1fe843a117c,
-            limb2: 0x1ea27c5451d52504
+            limb0: 0x54b4d425ec893b831f321f13,
+            limb1: 0x9fffc6e3f44491a8d0d6f209,
+            limb2: 0x54ef8ae3ec0e7c8
         },
         r0a1: u288 {
-            limb0: 0xc8709e34ecfd5045aee6cd22,
-            limb1: 0x17e13306790876ebc4f61e0f,
-            limb2: 0x22a2c6c04fa53a83
+            limb0: 0xd2d0eb26400a7c10913d8769,
+            limb1: 0xfa438663e0f9b307e03d3ce3,
+            limb2: 0x2fa2c1ce29e3b1b2
         },
         r1a0: u288 {
-            limb0: 0xd062c6cc5bc79a3f5123dff5,
-            limb1: 0x336ab261764b17f3ee29a4e4,
-            limb2: 0xb1195d5f244a1cc
+            limb0: 0xc62150b0dd1efaa03ab82a53,
+            limb1: 0x9ce42af3cfaad79e863b6906,
+            limb2: 0x73ca1adca9a6ae0
         },
         r1a1: u288 {
-            limb0: 0x375f88c6ab8a66ce2c45844,
-            limb1: 0x574655d141ce547c3637ab3b,
-            limb2: 0x294cf109df7f8aef
+            limb0: 0x580259dfe7d468294dbbc9a1,
+            limb1: 0x9762d1dc65b63c71319a9854,
+            limb2: 0xe73153a26b6f985
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x3c61c6ab0da21c3e668388de,
-            limb1: 0xadf7790d8f1cfec15944a49,
-            limb2: 0x1023c51e1d7c3720
+            limb0: 0x599cee1f41f4663715b19b97,
+            limb1: 0x21a29f5d958ae16a202f1deb,
+            limb2: 0x2310a70db6f01d62
         },
         r0a1: u288 {
-            limb0: 0x621b190509101a4e8a1d2014,
-            limb1: 0xe770aa879aa7c91c4c0c6407,
-            limb2: 0x14fe86f135763f41
+            limb0: 0x5b52760e733eef9f9b1106d0,
+            limb1: 0x7567b39551d1ebee2def4df8,
+            limb2: 0x26e3045ce20e4c09
         },
         r1a0: u288 {
-            limb0: 0x91dfcaa871eaee7f34736068,
-            limb1: 0x4adf2d2dbf50d7f3633cadb5,
-            limb2: 0xd872e62f6f780ba
+            limb0: 0x97c5ac5880a8cc105ef36d53,
+            limb1: 0xf48d295cc4ade0407164256a,
+            limb2: 0x2c6aae4fe0a84f60
         },
         r1a1: u288 {
-            limb0: 0xc0adf5c11427fe9005664e68,
-            limb1: 0x32e20a7c8649597fdcdaed1,
-            limb2: 0x9d620bb18f91394
+            limb0: 0xfc617868af326fed8b97564,
+            limb1: 0xb5c4b8141d430432e8d126ea,
+            limb2: 0x264cc895ed0dee39
         }
     },
     G2Line {
@@ -329,24 +329,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xdd2508531d177bf2418b34ac,
-            limb1: 0x58b53202635362e06799525b,
-            limb2: 0x10de77b26585989
+            limb0: 0xe400e9c1f4404528beb40c7e,
+            limb1: 0xe94c1c4229393957102994b7,
+            limb2: 0x24a5bae1abc62e8f
         },
         r0a1: u288 {
-            limb0: 0xba487f6922104faee9c82f01,
-            limb1: 0x36a1e26817f430ab1adfc41f,
-            limb2: 0x4199ff7f94dafe1
+            limb0: 0x307ac38f6ca18e6d6a59d537,
+            limb1: 0x6e7e55c967c81c95dd32dde2,
+            limb2: 0x235e78b2aabfdf31
         },
         r1a0: u288 {
-            limb0: 0x81417040c7df220fce87931e,
-            limb1: 0xd9bba91c95e83dcb548b1fce,
-            limb2: 0x300e2d888e7f0397
+            limb0: 0x5d2ed30b5fde69a21442cd82,
+            limb1: 0xde52401e4333c60a93e92b6,
+            limb2: 0x849f8f68db9f627
         },
         r1a1: u288 {
-            limb0: 0xc32fb08149cea790dce634e7,
-            limb1: 0x96cb436be75b4d4d7b843d1a,
-            limb2: 0x141e6d113964f042
+            limb0: 0xd08d54c63f9898d63858a33d,
+            limb1: 0x8b6c5578f2f58ae7dd05a307,
+            limb2: 0x3de486f5888abe0
         }
     },
     G2Line {
@@ -395,46 +395,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xcb6eabfa4651560b5c8771d1,
-            limb1: 0x705fdb64bc10f881681be64,
-            limb2: 0x2dfbfdb2cd0cb5ce
+            limb0: 0xfbae07a5aad605b4ff956f65,
+            limb1: 0x44c19ba693b47a36fdad4e4d,
+            limb2: 0x15ea5f972944553d
         },
         r0a1: u288 {
-            limb0: 0x4a12eef90fd89dffd138e424,
-            limb1: 0xd429b43139f186b7d56307b2,
-            limb2: 0x27c354a5fe1b4077
+            limb0: 0x255c031340626ab40054a39,
+            limb1: 0xe1087e384a2f9b9e0e13dc10,
+            limb2: 0x4c6b50edeaaaefe
         },
         r1a0: u288 {
-            limb0: 0xa8698e882291ed53c018bcc,
-            limb1: 0x91b5569a3d5a9fd97c2678fa,
-            limb2: 0x8e8ba7c453d55b0
+            limb0: 0x7b86925fd781120dfffeaccf,
+            limb1: 0xac1e15bd875d408d14befa2f,
+            limb2: 0x1d05b2c5161d3ffc
         },
         r1a1: u288 {
-            limb0: 0x367284d5c363705a37d32cbe,
-            limb1: 0xe99fe6e05faf5ae272b4c286,
-            limb2: 0x2c9e4f1fa2c05275
+            limb0: 0x42aadd2bd762292ea0f65527,
+            limb1: 0x828b9f3145061555cab967ea,
+            limb2: 0x17abaf3267321edf
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x6b319aa4921fcfb0dd7bd5aa,
-            limb1: 0x230653dd042b0bc1c3f234f8,
-            limb2: 0x2e32ace305a70ccd
+            limb0: 0x6a18bf6d1494b1add610e480,
+            limb1: 0xd52e8a34327394684bdeff92,
+            limb2: 0x1db50ea9ae299129
         },
         r0a1: u288 {
-            limb0: 0x181e58e690d69ab1b75fbe6e,
-            limb1: 0xfe0d1cbd2d7548fc5acfa2bf,
-            limb2: 0x12d7038f2aa9de62
+            limb0: 0xd0e363d15b8599d7d9847966,
+            limb1: 0xdb5ad44bb9de8f37c98ebc7f,
+            limb2: 0x14ffcf436053c059
         },
         r1a0: u288 {
-            limb0: 0x9c5cf1df37cd1aeca9108e64,
-            limb1: 0xf716468f7eb6410a89be463e,
-            limb2: 0x2c2f379a276f2263
+            limb0: 0xdc5012942322e871351dc679,
+            limb1: 0xf31a2483fdcde2c9908817d1,
+            limb2: 0x8f91b1f789f38a7
         },
         r1a1: u288 {
-            limb0: 0x5c6a8fc13c9cc66afe2ef3c2,
-            limb1: 0xec15e9a376112cac46eaaa5c,
-            limb2: 0x559b0ce6a5583d2
+            limb0: 0x18ec07f263de0a1320049769,
+            limb1: 0x3d7ec366be41e0a282796948,
+            limb2: 0x1c16f6bc2b1a7509
         }
     },
     G2Line {
@@ -461,24 +461,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x1a25bcce2202c97a49604286,
-            limb1: 0x7da306534c46670c28f3d151,
-            limb2: 0xe2a383d47f44554
+            limb0: 0xf38a43ff12be6a0c34543c8c,
+            limb1: 0x97b971bf0f02060d8a1098c9,
+            limb2: 0xf0965451ea56fc6
         },
         r0a1: u288 {
-            limb0: 0x144ad273a45a86066a7d389b,
-            limb1: 0x3247495239fa3d66966ba313,
-            limb2: 0xd409b340aa553b7
+            limb0: 0xf6d21d23a37742ec392169a,
+            limb1: 0x961fc5eae6bcfd849079a548,
+            limb2: 0x16ed4ba741538ae6
         },
         r1a0: u288 {
-            limb0: 0x834dc2fd30ee98602670c55b,
-            limb1: 0x6eeceb51ecf9b9461d684f0c,
-            limb2: 0xace858e0efc494a
+            limb0: 0xb3d1137bb547af331a376ce4,
+            limb1: 0xf8f2c79e41ac659caf351ba6,
+            limb2: 0x2a7fcdd8e623e361
         },
         r1a1: u288 {
-            limb0: 0x2951a0aad8ad841de526b8ca,
-            limb1: 0x1adacf5149fa4ec1b41dfc1b,
-            limb2: 0xcefbd60ae7e16c4
+            limb0: 0x7256b826214dce15ee82e421,
+            limb1: 0xbe3c24330cd2d2388d930d51,
+            limb2: 0x25826aae44da2a53
         }
     },
     G2Line {
@@ -505,24 +505,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x3a73a759b92133f02c7cb868,
-            limb1: 0xfe161ecc6c7ec288dd6a8435,
-            limb2: 0x20451fc6aad1be30
+            limb0: 0xf75ee54e9cba76de5589be5d,
+            limb1: 0x661333d58d1c211b4ada567b,
+            limb2: 0x10e3d41bbdb3047e
         },
         r0a1: u288 {
-            limb0: 0x58033812bc29c7ee66d6cc2d,
-            limb1: 0x37dfccee7d9337be9bf18dfc,
-            limb2: 0x2a4dfe6767ef7e09
+            limb0: 0x25396a96664e0dde25f1c696,
+            limb1: 0x939e0584c07efbb0b353d307,
+            limb2: 0x27fb31b3f9d2d874
         },
         r1a0: u288 {
-            limb0: 0x3fb8a771094231c9d0a0dbbe,
-            limb1: 0x242f108e895ea36de5e49b64,
-            limb2: 0xa7eddb267191e9a
+            limb0: 0xf50f7f8184231835a6168089,
+            limb1: 0x9449ea494b6d6b3e20246095,
+            limb2: 0x6578aa5e79284e4
         },
         r1a1: u288 {
-            limb0: 0xa227804445dfd7e2139cc4c0,
-            limb1: 0x8bec0f735bc3c2196a49897a,
-            limb2: 0x1bdd4eb9508e7fb6
+            limb0: 0xb74e16cef4219d9a59df5d5,
+            limb1: 0x725794eae9149a57b3fb8982,
+            limb2: 0x1959ea00fbe2a606
         }
     },
     G2Line {
@@ -549,24 +549,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x514232fd68a82213ef446e9f,
-            limb1: 0x19839ffe863bcceeda1ea3ae,
-            limb2: 0xc96c7c011a2c76b
+            limb0: 0xd2f1ed1b71386a52e859bfc2,
+            limb1: 0xebdf7c1eea550250e3b0911d,
+            limb2: 0xadb6b1dc671bfe2
         },
         r0a1: u288 {
-            limb0: 0x4465c407aef58ed32c8b72c4,
-            limb1: 0x6d2f7e9a9c6dcd716cc3400,
-            limb2: 0x243b985bdcae832d
+            limb0: 0xd48b3faabec442f715b203cc,
+            limb1: 0x646b7ba361216614b5e4b358,
+            limb2: 0x2c646e75a6374a7
         },
         r1a0: u288 {
-            limb0: 0x3a060e93f5cbee2499ebf7e,
-            limb1: 0x4921989478e7c3939e1a3345,
-            limb2: 0x18db9a4539cc9f9c
+            limb0: 0x8eadb58f3b58aaf26b8cc2d7,
+            limb1: 0xdeec2322d51d0165a90f23f7,
+            limb2: 0x2700e43d409a5030
         },
         r1a1: u288 {
-            limb0: 0xd6401d0a1f515662736011f1,
-            limb1: 0xdb9f28d770ddbbf3fa6c13d3,
-            limb2: 0x38083c634091017
+            limb0: 0x94dd0e0656df7a227d44a7f7,
+            limb1: 0x1ef676983e42e76f5a0de9ca,
+            limb2: 0x2a5f0937cd58a781
         }
     },
     G2Line {
@@ -615,46 +615,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xb4f681b3e1f25114c8a1d1b2,
-            limb1: 0x1c4f1c66ffb1fe5ff02370ab,
-            limb2: 0x8d3b0a4320decb4
+            limb0: 0xedab326adb91512bf2fc7dd3,
+            limb1: 0xd6ac1028d306f1b883f20aca,
+            limb2: 0x19ba3088dcecc4e5
         },
         r0a1: u288 {
-            limb0: 0xcf5eb05c1c66acfe56b50d19,
-            limb1: 0x96064eaafdfc8ee44a045b4a,
-            limb2: 0x12dcf7ca59f7c687
+            limb0: 0x278620809a0b083425a21fb6,
+            limb1: 0x11d0db123d9a7c32c038d739,
+            limb2: 0x244d297411efc34e
         },
         r1a0: u288 {
-            limb0: 0xd544e7e470f4ae7e550a2d8d,
-            limb1: 0xe17ecfe27e9347f0756aa64e,
-            limb2: 0x3d106eb7f369a41
+            limb0: 0x131eac9234fa377c54d6d414,
+            limb1: 0x5dd54cdbdf719a5a9fbaec08,
+            limb2: 0xa5730fb7b4728d8
         },
         r1a1: u288 {
-            limb0: 0xe395cba158c5bcaa5571dc0a,
-            limb1: 0x493fb962bf9b6cd64b3b683c,
-            limb2: 0x2da581566ee11269
+            limb0: 0x9c5e8cedb6ab87be0444f775,
+            limb1: 0xb4e048b895a06b5d4872c3fb,
+            limb2: 0xe82b82b6a368270
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xd696a3b8a608ce9399dcce8e,
-            limb1: 0x589eeb9bd341ed3fb214b259,
-            limb2: 0x1082fd560cf88a8c
+            limb0: 0x6aece3278abe0800380332e,
+            limb1: 0xcf2134891a368c8b484e9840,
+            limb2: 0x19091f2f633f8782
         },
         r0a1: u288 {
-            limb0: 0x92e3e8a8e38df6d727348a62,
-            limb1: 0x15e5cb791ca90fc9b3294aa1,
-            limb2: 0x481f4a06c82c8c4
+            limb0: 0xf64f0bc95ff5a285ffed6b66,
+            limb1: 0xc7acb37ee3cfeb7fde9682ae,
+            limb2: 0x2ecdcb7c5657e55b
         },
         r1a0: u288 {
-            limb0: 0xa5be0fc5ed29876a44322957,
-            limb1: 0x7e5b590c9329792c2e84a21d,
-            limb2: 0x3a89a0022dbacb4
+            limb0: 0x4759f12dd6981eafe0e753e0,
+            limb1: 0x19533355afd8e32bad60d5ff,
+            limb2: 0x242f8dbffe64d686
         },
         r1a1: u288 {
-            limb0: 0xffa19fc5e518da419fddc75d,
-            limb1: 0xe09305aa8b63da01a3deeaae,
-            limb2: 0x211e02a3faa83708
+            limb0: 0x29be42873c198a644f8fafeb,
+            limb1: 0x64a8f1bbdaddf4d6e9acf448,
+            limb2: 0x196de844b6d235d7
         }
     },
     G2Line {
@@ -681,24 +681,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xfbf3c69351b895a347455d4c,
-            limb1: 0x12abab4bb9bcbe9183ddab37,
-            limb2: 0x14c7386614bd532e
+            limb0: 0xdcb5c7f9b9cada983c90edbc,
+            limb1: 0xbbf6a2c57d06d2b4137136ba,
+            limb2: 0x8e580cb2feb027c
         },
         r0a1: u288 {
-            limb0: 0xfb102790af1617b1b8ac14d3,
-            limb1: 0xe30ecce6967517a033d9cba7,
-            limb2: 0x1e6865734899eb6d
+            limb0: 0x355f02dfd908cbb42adb5386,
+            limb1: 0x6bd850d7ec6bbd59884d48f3,
+            limb2: 0xbfdee85499062ae
         },
         r1a0: u288 {
-            limb0: 0x73716e9c5e6d13dcfa42b1e3,
-            limb1: 0x50ea11cdbe463ba3faf4b3c3,
-            limb2: 0x7935721a9b76003
+            limb0: 0x49ac27be962092ff2d996599,
+            limb1: 0xe14f39949bb5d243e7629dec,
+            limb2: 0x1f2b6accf7138484
         },
         r1a1: u288 {
-            limb0: 0x67425929ad6c13ba22deef95,
-            limb1: 0xd85e7175a65f9ede2afa6ca2,
-            limb2: 0x1ab6c2f7f60f7219
+            limb0: 0xacc0d14a8d7944c66f5dfab2,
+            limb1: 0x37533bb7dba88ccf16fd47d9,
+            limb2: 0xd3f3321b934e43c
         }
     },
     G2Line {
@@ -747,46 +747,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x604a483c6b1fb9f0e562acdc,
-            limb1: 0x7fad59353ca3927f65088119,
-            limb2: 0x2a8dd4b4acc239e8
+            limb0: 0x5ba47e119f590ccdd0ae843c,
+            limb1: 0x6d2ea3cbfd5414c29d0c1b7,
+            limb2: 0x2e6bbf9c37877d7b
         },
         r0a1: u288 {
-            limb0: 0x5263ed098bb9d5e44131a056,
-            limb1: 0xf2cd7dd9ee982c22d94e6e10,
-            limb2: 0x6cf8822ae9b93cf
+            limb0: 0xc62b4a765949aac8855a6e4a,
+            limb1: 0x116f64e3a511ee3139b813c5,
+            limb2: 0x20f72c01d8691d6b
         },
         r1a0: u288 {
-            limb0: 0x99df222ce5bd9695c21d4232,
-            limb1: 0x75fec095738ffc8105f20f86,
-            limb2: 0x1504098d54aa0420
+            limb0: 0x4b99d3b513355c81b13c86f9,
+            limb1: 0xd03db5f96cda04d0ac2cbfb7,
+            limb2: 0x13b9cde83150aeba
         },
         r1a1: u288 {
-            limb0: 0xfc0d85d6eaec7d43bfe282bb,
-            limb1: 0x1877f055cfb22c726554b6bb,
-            limb2: 0x10e16f1c4869298c
+            limb0: 0x6d7b3b271fe61cb9a96b4eb6,
+            limb1: 0x8084d4919c3368cc953c6e06,
+            limb2: 0x2877e91bc1a0b99d
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x5d036ccb1256db43aa5cfb93,
-            limb1: 0x5b57a7f543e0ebd301a7a736,
-            limb2: 0x1cbced2128af8bc2
+            limb0: 0x2df56e611c746788cc120ef9,
+            limb1: 0xa538c8b82a314b72429a279c,
+            limb2: 0x1c07f07a97d03e36
         },
         r0a1: u288 {
-            limb0: 0xfdf826ca58e887800d3ead65,
-            limb1: 0x15fb2be1378803f453e85704,
-            limb2: 0x7a7314cf2ab9644
+            limb0: 0x8afa70404d188e4908d1fc3d,
+            limb1: 0x4a0b292cccdc9703046b46b8,
+            limb2: 0x29890faf4a97e4d8
         },
         r1a0: u288 {
-            limb0: 0x9a47df415ed7343cc1518885,
-            limb1: 0xfe275c77853c3e30cbe320f2,
-            limb2: 0x284c4cc4d4e04850
+            limb0: 0xc76136627ae71fefbbb685cc,
+            limb1: 0x68b259ff4e387827ed28f2f3,
+            limb2: 0x1f02f895bf437b26
         },
         r1a1: u288 {
-            limb0: 0x20f3778e61b9dc8b4c471e62,
-            limb1: 0x29218eba5626900acc763d8e,
-            limb2: 0x2b06ae619f42f404
+            limb0: 0x3436f01d333ba276659e988f,
+            limb1: 0x4db546e2cfe48d58b6791691,
+            limb2: 0x1cca79c8ff7b7cd0
         }
     },
     G2Line {
@@ -813,24 +813,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x5e532a43080205e10bf08441,
-            limb1: 0x35edd9cbbe5ae8840f72af17,
-            limb2: 0x3018c9505d47d58a
+            limb0: 0x867ce7768d239492c5723920,
+            limb1: 0x3fdfbd93fee7b15f78e994c2,
+            limb2: 0x13392ae738ba0499
         },
         r0a1: u288 {
-            limb0: 0xed288ccb93b9cb4754cb70a1,
-            limb1: 0x3315a6553fb69c0c35391916,
-            limb2: 0x273f72f66ad78807
+            limb0: 0x11ff27304a7978ba58bf5246,
+            limb1: 0x3e92388ab5e5ebd947a6eec4,
+            limb2: 0x1063e77b11b167ed
         },
         r1a0: u288 {
-            limb0: 0x708a5b936a25bc044c5e1514,
-            limb1: 0x56ebf7669f40f91bedd6e4c8,
-            limb2: 0x1f70437c99190c7d
+            limb0: 0x6fdfa208623c252d086d8c04,
+            limb1: 0x549cb1e290d0f6c80975de3c,
+            limb2: 0x1775b9cdec9b442b
         },
         r1a1: u288 {
-            limb0: 0x9cd03a42ba52036806b3ccf3,
-            limb1: 0xb15021e9f18c230a6f5d1355,
-            limb2: 0x2f9968d0261026ba
+            limb0: 0x15fbaa87fa321f722aae28ba,
+            limb1: 0x1f04793f01c2c780ae225d42,
+            limb2: 0x1aa87dcf6956d9fc
         }
     },
     G2Line {
@@ -857,24 +857,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x382be85ea61af870e5dcc39f,
-            limb1: 0xe6310f06cb021f92d0bdaf79,
-            limb2: 0x1b64793e68adf33c
+            limb0: 0x68dc209ec022d6f3df5a74ab,
+            limb1: 0xd685adff927ab85e8a54a590,
+            limb2: 0x4a241034198ab11
         },
         r0a1: u288 {
-            limb0: 0x44583b22907d04aaa078c770,
-            limb1: 0x711b071e29bbfacbb0fed35a,
-            limb2: 0x28cfd94ddb7afd64
+            limb0: 0xfd42f63ce8387ed160476242,
+            limb1: 0x5533d0eabc9e9a75af34a9b0,
+            limb2: 0x2379cb1c05d6917f
         },
         r1a0: u288 {
-            limb0: 0xb76dbaeda5721fee822fee00,
-            limb1: 0x5ce11f787ae8b8924dc6ea21,
-            limb2: 0xb6884ccbd5c6c58
+            limb0: 0x4f77ee2cababcc1f496d600a,
+            limb1: 0xf5156aa9fc64c5236662869f,
+            limb2: 0xdfe24d494afa4b4
         },
         r1a1: u288 {
-            limb0: 0x875b2fa4cefd0d6aa9e7e585,
-            limb1: 0x4d0fa13b000edd7f1081ef8d,
-            limb2: 0x6e098a7fa799961
+            limb0: 0x8cb127c11f439dbd5f447a47,
+            limb1: 0x902ed2a711d033ef4a6a283b,
+            limb2: 0x1f0d30bb1692fa83
         }
     },
     G2Line {
@@ -901,24 +901,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x8c574bc0f6c90d7970dfba31,
-            limb1: 0xccdf8ab2b442c47f2bbbe39,
-            limb2: 0x2ea6d0113c70ee44
+            limb0: 0x6916467078b5fa5e38137427,
+            limb1: 0x4f11819cfa580bbe14090394,
+            limb2: 0x2fc60266348f346c
         },
         r0a1: u288 {
-            limb0: 0xd8e549d01e9aec3b4797c3e3,
-            limb1: 0x1f5cd9eff44196aed5e659ab,
-            limb2: 0x71feea7a188b2e1
+            limb0: 0x3367be87cb8b8c80d9198d9b,
+            limb1: 0x73fc22507721fed2b3e1cf43,
+            limb2: 0xcdee34bcdb36f59
         },
         r1a0: u288 {
-            limb0: 0xa6e1023f7f2a6da038b79e92,
-            limb1: 0x89f515cfb2fd9d2772651595,
-            limb2: 0x247094a9e1de88db
+            limb0: 0x8d1c16dac3b64840de01ead4,
+            limb1: 0xfc195f9cdc38b2c6b5d3d522,
+            limb2: 0xf506ee8d39572a3
         },
         r1a1: u288 {
-            limb0: 0x405ed815ec27743ce1549544,
-            limb1: 0x245e5daad55da522b5ede3a,
-            limb2: 0x1cf41fd56939612c
+            limb0: 0xd2849949d4fad7bec4e0a6ff,
+            limb1: 0xe6f3026aa7f0e7109bdbf7c1,
+            limb2: 0x2135d6a56487fa78
         }
     },
     G2Line {
@@ -967,46 +967,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x7fd9791dc5868d82dac66e82,
-            limb1: 0xd431cf97ff7983adae916955,
-            limb2: 0x82d90ed9a7f5784
+            limb0: 0xd8dd168c8595db9cc7cbc2ef,
+            limb1: 0xeaad269f20c61bb3a0812dd0,
+            limb2: 0x2c00833e4cc986d6
         },
         r0a1: u288 {
-            limb0: 0xb59db2ed68b361e0c22e9a52,
-            limb1: 0xf10e14a9366514db1b549226,
-            limb2: 0x2d29f41bbdcfce83
+            limb0: 0x254d251961aa5e0f34fcbfe0,
+            limb1: 0x24a93d82359ec5dc0341d5fd,
+            limb2: 0x203af56aba6a4eff
         },
         r1a0: u288 {
-            limb0: 0xa853b0874bc5fdef719b23e2,
-            limb1: 0xd32fa93f7979c0674b75fc90,
-            limb2: 0x15540dca65bf404a
+            limb0: 0xb2d701ee6277f202953db184,
+            limb1: 0x1acc02a0ceea53e5ef658ae6,
+            limb2: 0x4f02c3afabef20f
         },
         r1a1: u288 {
-            limb0: 0x358d68a34d2fd3e7c61c31aa,
-            limb1: 0x495924688eeaba487a80dc53,
-            limb2: 0x6184fb1bfe8b77a
+            limb0: 0xae2553fba62420b1665f8055,
+            limb1: 0x9838e6c3fcd48ae799139ac0,
+            limb2: 0x2b6b571f6b7151db
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xd8d6c4f3dd1be9caaa830dad,
-            limb1: 0x4dea2a6f333cc335270d4b1a,
-            limb2: 0x1e6ba6c10f524d62
+            limb0: 0x75faea3ba1b21d476e95cddb,
+            limb1: 0x79886e4ea9c9550c557a8135,
+            limb2: 0x142b3abbcf041385
         },
         r0a1: u288 {
-            limb0: 0xa38dce3fc8136641f2eb505e,
-            limb1: 0x2717b452538fab321a5db454,
-            limb2: 0x9ce5b0209328fdd
+            limb0: 0x3afd69eba5cc16c906d6e94e,
+            limb1: 0x1a4a62b4c2c090e9348e7367,
+            limb2: 0x26e7b03c87c6b642
         },
         r1a0: u288 {
-            limb0: 0x1d01af1e167709f55713f1da,
-            limb1: 0x57682f0c7a0df347d017acab,
-            limb2: 0x14fedcccb709d9ef
+            limb0: 0xbe3912a3654603746c8d831a,
+            limb1: 0xa1c1eb02158c5883d8e91c12,
+            limb2: 0x18ca20b6ef0e42d1
         },
         r1a1: u288 {
-            limb0: 0x3110a644f9cbff75ac9cdc8a,
-            limb1: 0xde43bf9dbc96a42a265e8541,
-            limb2: 0x1cefe7a0e9fa0ac6
+            limb0: 0xa697a8282a3f6367e1c6f5d4,
+            limb1: 0x39f7355c3e090b97cf5cb8a3,
+            limb2: 0x176c5eee298692fa
         }
     },
     G2Line {
@@ -1033,24 +1033,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x6bb919fa05c247b6b9bc1a2,
-            limb1: 0x1c639684e16b7f7723d5d84e,
-            limb2: 0x1a14d5752a8a2892
+            limb0: 0xd0fda174a28705c59c2aeb29,
+            limb1: 0x134f9f825f8e033cc44091a0,
+            limb2: 0xa000197e82b2fa5
         },
         r0a1: u288 {
-            limb0: 0xc2db7516cb5795e4537e07b3,
-            limb1: 0xfc098bff2895045dc9d1822a,
-            limb2: 0x1029647701bdb21e
+            limb0: 0xfaf11a64d3a750b2f1417d59,
+            limb1: 0xa17105780d1230ed0121891f,
+            limb2: 0x629bd8fc4ae9511
         },
         r1a0: u288 {
-            limb0: 0xcd29273fb19944434c4021c2,
-            limb1: 0x40f8acfb4b590af0bcbc71b6,
-            limb2: 0x1580ee99972aec5d
+            limb0: 0x938d76f225c96f4b08fcac56,
+            limb1: 0x2c691700649b617e0d570c83,
+            limb2: 0x15eec3ee87ae6eb2
         },
         r1a1: u288 {
-            limb0: 0x7b0ff6465afabe396c82614a,
-            limb1: 0xe010440690112923c55a3234,
-            limb2: 0x2abd13d7b3df253b
+            limb0: 0xd8b9babe7871be05794f2792,
+            limb1: 0x91f62a8d08a5f63a1804d8aa,
+            limb2: 0x1f79db0060fe6106
         }
     },
     G2Line {
@@ -1077,24 +1077,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x3832e1b7d18b24dd41b1385d,
-            limb1: 0xc7d2d3f95e8fc4d8897630d5,
-            limb2: 0x42942e842731a35
+            limb0: 0xb683398f9707c3326b92de7e,
+            limb1: 0x87943a86c9ee38629183f577,
+            limb2: 0x8220dd6a5a85e89
         },
         r0a1: u288 {
-            limb0: 0xf569b34335badb0923348c87,
-            limb1: 0xc9e0cac25163bc72392d3ac2,
-            limb2: 0x1121dde1f1a3ffb7
+            limb0: 0x9941d52ef644b9e04dc62af,
+            limb1: 0xe4cd23d25048430f6caf1389,
+            limb2: 0x2f36dbbf17850587
         },
         r1a0: u288 {
-            limb0: 0x16d06c81577c07daeb734223,
-            limb1: 0x81fc00b960a1b530bd1344e4,
-            limb2: 0x1e9435a36431cfe1
+            limb0: 0x424be96adfc3163c5f4fb1f3,
+            limb1: 0x9743b03ca4fd9665384559d3,
+            limb2: 0x207c62778bc07df6
         },
         r1a1: u288 {
-            limb0: 0x4f37043ded02c2e101aa5326,
-            limb1: 0xae6e605255082351ee777ff2,
-            limb2: 0x1cd6c9504981c49e
+            limb0: 0x71468ce30478d375ccd50c8,
+            limb1: 0x4784785ad41212c09411fa20,
+            limb2: 0x54e6c8595ac72
         }
     },
     G2Line {
@@ -1143,46 +1143,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x61f576e03f94c96f6f740e7e,
-            limb1: 0xa7fade6718c94edc32c07123,
-            limb2: 0x226b226d7ea254fc
+            limb0: 0x92344b2242b4bef999ad2acd,
+            limb1: 0xf4b7e8c98d69cfb1e187d2f6,
+            limb2: 0x108f9a19938eca41
         },
         r0a1: u288 {
-            limb0: 0xfe12906a2d2f24c7ae9d0a58,
-            limb1: 0xf1874442bcf0ac9d2fc82634,
-            limb2: 0x2faa9b3d44c223e2
+            limb0: 0x923f6c98797ffd754fe31d39,
+            limb1: 0x6fbd97ac7c8558c8b6887c29,
+            limb2: 0x15fad063bc6e77
         },
         r1a0: u288 {
-            limb0: 0xea15a840961cfd360f5e7fcf,
-            limb1: 0x9ccf6ca8996ff81570ff6646,
-            limb2: 0x857af1011a6589e
+            limb0: 0xafdd3b31f4f4e374978ea1f5,
+            limb1: 0x2791cb56ad3dd70684731e26,
+            limb2: 0x2f84f347109d600e
         },
         r1a1: u288 {
-            limb0: 0xfafb10b8efd39605c9611bbe,
-            limb1: 0x5c2d10c21b1f6efa5e0ed775,
-            limb2: 0x2e713940a25030ec
+            limb0: 0x533f292661ae2ecbbff7514b,
+            limb1: 0x55b567663ce30e24e3ab0f7c,
+            limb2: 0x1201fff33db54a22
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x9b13af23f5137ea14ec0c6a8,
-            limb1: 0xd437381b76de813bb5632e6f,
-            limb2: 0x286a2fb460836f5b
+            limb0: 0x40f7eebfe2200c2cb891f13b,
+            limb1: 0xa37018817ad9d6afdc971f77,
+            limb2: 0x16403f46dbbaca86
         },
         r0a1: u288 {
-            limb0: 0xf4c5a6542fcd2a0d6dd4cc8f,
-            limb1: 0xf94c889faf3308f118590da5,
-            limb2: 0x5f18e69e81f8586
+            limb0: 0x12f18bfa2d13f6fa0e7ea2e2,
+            limb1: 0xde178e85d4ad0a7b894a6556,
+            limb2: 0x2db8835bd8b65eaf
         },
         r1a0: u288 {
-            limb0: 0xfe1802d4a506693c20d15591,
-            limb1: 0x7c801b01cf65c99de1811721,
-            limb2: 0x198f5820dd6fe2e9
+            limb0: 0x97c69805c0d23d87054ba869,
+            limb1: 0x20a77426965c4203b32aad4b,
+            limb2: 0x1b0d6c85c4d6c4ec
         },
         r1a1: u288 {
-            limb0: 0xe63e373f267fbb90fd55b325,
-            limb1: 0x76a50618aec4c4d221eefd3d,
-            limb2: 0x18af7bfa2dafc2d2
+            limb0: 0x8f20ad2b64b0e7b9faca87d0,
+            limb1: 0x4e036dc3b80dfeebd189f30e,
+            limb2: 0x2983d324457fd130
         }
     },
     G2Line {
@@ -1231,46 +1231,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x828dcd727baed330ee076617,
-            limb1: 0xa19fb4783746448ce22c0ef9,
-            limb2: 0x1d5fd0287d01c7f8
+            limb0: 0xe70cae901181580940997375,
+            limb1: 0x28ec5a6edf233c18a210b779,
+            limb2: 0x38be69bca4d34a4
         },
         r0a1: u288 {
-            limb0: 0x3ab5080cf6b407d220fba8e5,
-            limb1: 0xb7f8a6213f8c4e2c76399d9e,
-            limb2: 0x1ab619b88adf9ab6
+            limb0: 0x8c4012a2853312dc4870efd1,
+            limb1: 0xcd4231009dde2ec841ba517,
+            limb2: 0x13e7701c9cdcb
         },
         r1a0: u288 {
-            limb0: 0xba5758d4c7350cddfbe06a34,
-            limb1: 0xb12f0744af903bd6913b62bc,
-            limb2: 0x1a12f2fbf6d7f3f4
+            limb0: 0x10d4711709eae126040d0603,
+            limb1: 0x7067d02a5f44fd3c15bde981,
+            limb2: 0x2f9a95ceb39d2fec
         },
         r1a1: u288 {
-            limb0: 0x680e3dd373d289cbfbd6b949,
-            limb1: 0xcbe2906681e5db273c616752,
-            limb2: 0x129d730243590659
+            limb0: 0x7fdf3bc10bb26b7edbf3781e,
+            limb1: 0x98f6849c215c7e8d057ed762,
+            limb2: 0x129413939da71824
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x695fd95e6e0af95bcf1b4ea7,
-            limb1: 0xbd7541c664ffefbfa4ec34a1,
-            limb2: 0x2da3c350ee8219ca
+            limb0: 0x5e6ba8e7c6702811544cf67c,
+            limb1: 0xf658a60a011fb2ab7ce36e00,
+            limb2: 0xf8edc5d5162e297
         },
         r0a1: u288 {
-            limb0: 0xc32c98ab99c05fdca9d1f798,
-            limb1: 0x18ddc26034ba29a1c7f45751,
-            limb2: 0x1254a537507ab3e4
+            limb0: 0xaac7cca005d7d160e51f28ca,
+            limb1: 0x42ffd1b776f522d01e4bb5ba,
+            limb2: 0x2e88fcc0c3106dcd
         },
         r1a0: u288 {
-            limb0: 0x9d4b5f5c894818fb1d4e8bdc,
-            limb1: 0x23b6d5967d179a0fabe1a188,
-            limb2: 0x23ca814fbd10426e
+            limb0: 0x52f765ea1c1b7bac00eb8355,
+            limb1: 0xd34926b54dd84118dd2f5e68,
+            limb2: 0x14a37f3495c84176
         },
         r1a1: u288 {
-            limb0: 0x47153e2f4248afea82c26459,
-            limb1: 0xe1cd05e36f81827b1e090127,
-            limb2: 0x6b59e00d4e13d6a
+            limb0: 0xf7d75219b80b165270736ff8,
+            limb1: 0x739b3c2a53efb888b4c9bef2,
+            limb2: 0x20bae97b908b365d
         }
     },
     G2Line {
@@ -1297,24 +1297,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xa36c1fc11949d67729c4083f,
-            limb1: 0x480177fde05b35db5e6fd323,
-            limb2: 0x1e07266ba5e56826
+            limb0: 0x4f81eaaee7431274cc704206,
+            limb1: 0x55ba43431e219ff31bf81a9d,
+            limb2: 0x14c896ae533a9805
         },
         r0a1: u288 {
-            limb0: 0xa50853f5631780f8ec5f051,
-            limb1: 0xde811b40a8b3e362a21e2280,
-            limb2: 0x1868e70fe71cce5d
+            limb0: 0x56aae81d5ba8a550af0fc5ea,
+            limb1: 0x3d6bc0de1a81353d5122dde8,
+            limb2: 0xe513a19d2fb5212
         },
         r1a0: u288 {
-            limb0: 0x78ec4b5403b19579cead1d8e,
-            limb1: 0x66fcee827f7567d25f41277a,
-            limb2: 0x11c352a587eaafd3
+            limb0: 0xa54410068385dbcc99f76f3c,
+            limb1: 0x90f49986de67ee5bf8c49e6,
+            limb2: 0x29fe2b2e5dbd470a
         },
         r1a1: u288 {
-            limb0: 0xc4062c0956898e620399efc7,
-            limb1: 0x346d3d96119aa1e1b2978258,
-            limb2: 0x21322f66dc0cfa09
+            limb0: 0xb00e61a475b5ae96328f08cb,
+            limb1: 0x8c074dd47275bb743fe5a415,
+            limb2: 0x1854262c8fbffd1a
         }
     },
     G2Line {
@@ -1341,24 +1341,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xea0241eb64aaa274a6d8fc80,
-            limb1: 0xaa5561f61cd39ab184a9bfa6,
-            limb2: 0x27c6aae419c6f69a
+            limb0: 0xd48857ea24d2e82ffc3c9ffd,
+            limb1: 0x91df984b971a5ffbe177445d,
+            limb2: 0x254a78797f9293bf
         },
         r0a1: u288 {
-            limb0: 0xa5d9011e631a2e4a07240aa5,
-            limb1: 0xfc4b18a2f79286711f44fb4b,
-            limb2: 0x2cb465a01fc51513
+            limb0: 0x9f7bc396f0cd750b7b5071de,
+            limb1: 0xfe97ffb40f550ae6b520dd92,
+            limb2: 0x27f5c69958ccd474
         },
         r1a0: u288 {
-            limb0: 0xf732347e94e89e40fb3e6cf,
-            limb1: 0x52d5bc7326c16df9c71762f9,
-            limb2: 0x91ed07a8dd8fbac
+            limb0: 0x1f8a12324c4442616eba371f,
+            limb1: 0xdf4797d04b3ea1ebf209e80d,
+            limb2: 0x30608dbb8c28129b
         },
         r1a1: u288 {
-            limb0: 0x1a5349e2d494c6a61e496684,
-            limb1: 0x202c68b3c050ff1bc7aaca8e,
-            limb2: 0x22a0fd4a9d2d05b
+            limb0: 0x8d7e31b9a2d445c47aeeaf95,
+            limb1: 0x416e4f56bc1fbcc66f06a962,
+            limb2: 0x26e18db13294e614
         }
     },
     G2Line {
@@ -1407,46 +1407,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x5a993d52b0d6ece4ef1fbf07,
-            limb1: 0x40118b464b65a66000703c5c,
-            limb2: 0x1a46877b59d26f15
+            limb0: 0x75bf50c244d104fc54f534e4,
+            limb1: 0xd42bd348f44bb1e980456425,
+            limb2: 0x1c65d77fad615c9b
         },
         r0a1: u288 {
-            limb0: 0x93429b10a6126e108672e8a8,
-            limb1: 0xf58390f33b3a090468337fee,
-            limb2: 0x1747e0a2417e27a3
+            limb0: 0x9e00cec400db7cda0ae3df5,
+            limb1: 0x71fdbd5da7d974f1b991c568,
+            limb2: 0x2e5a18f0a32c07fb
         },
         r1a0: u288 {
-            limb0: 0x999bffba7341b005d977dfa3,
-            limb1: 0x1e3483c45d3070760b530861,
-            limb2: 0x2e8a422007692f4
+            limb0: 0x7556c262e040609c750ef634,
+            limb1: 0x4d270c5d72b42d9c4426d483,
+            limb2: 0x35c5981215f373a
         },
         r1a1: u288 {
-            limb0: 0x7b8eaa873521d6772377a643,
-            limb1: 0xacc01199ca4364babfb66374,
-            limb2: 0x20d90da2e5a796e
+            limb0: 0x1e28005e687d6c4a176049b,
+            limb1: 0x3e575fe046a5dea9d800e97c,
+            limb2: 0x1c28e397179d48c2
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xed42a83a614bca8becc5419a,
-            limb1: 0x5243c7ae0e18d778ec6c334c,
-            limb2: 0x27372295bea624b0
+            limb0: 0x1624ca5c9fad69f5de815d3f,
+            limb1: 0x36cfd418389a12498185259d,
+            limb2: 0x2fd06a7add25558d
         },
         r0a1: u288 {
-            limb0: 0x201dce81d62f7d27246e0d69,
-            limb1: 0x5cce11d6b465bc4705ca1b13,
-            limb2: 0x21136342ef05513c
+            limb0: 0xf71e0b398cda1702b4c0ea10,
+            limb1: 0x36f68677f5303f21bde0f5c4,
+            limb2: 0x19ff976c6f6edc8a
         },
         r1a0: u288 {
-            limb0: 0x81b393e01f5fb04c5327f758,
-            limb1: 0x4a8ecfb60e2f101e5cc87b30,
-            limb2: 0x4a1264a24d05df6
+            limb0: 0x5748ef6fec85ae405604d08d,
+            limb1: 0xf5b07aeb220604460e5d90,
+            limb2: 0x10e39f6e1b05a576
         },
         r1a1: u288 {
-            limb0: 0xccca5b19c1593de53c206ba1,
-            limb1: 0xbea9a6910d4800a6c20a8094,
-            limb2: 0xb465594b1812c8a
+            limb0: 0xeaaf2e5c99de30aaae9b8c6b,
+            limb1: 0xe49f8bbe1fdeab140f4659e2,
+            limb2: 0x175d20e461be163e
         }
     },
     G2Line {
@@ -1473,24 +1473,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x7eebe61d8c850b78d0c18b2a,
-            limb1: 0x7e0c7972a4e948dafb1ec59f,
-            limb2: 0x2019866eedcce29
+            limb0: 0xb8354ce2fcf6e1f30443b1ec,
+            limb1: 0xec32dfbc109afa679430926c,
+            limb2: 0x1540756c6d1b27dc
         },
         r0a1: u288 {
-            limb0: 0x90c773e39b6f8744a8eb9505,
-            limb1: 0x3aaddebf34d2692b1d16820c,
-            limb2: 0x238aad8391e1532b
+            limb0: 0x596d5dc0239693d4bbd0ecc,
+            limb1: 0xbb97f7a1b3ce0e919b80e4cd,
+            limb2: 0x1522ae7d1672ae17
         },
         r1a0: u288 {
-            limb0: 0x905f5dc2a8264cb2fb7c1f6d,
-            limb1: 0xc347e0995feb29b0b9ca000b,
-            limb2: 0x2f1aae73fb7cb86f
+            limb0: 0xa49a59735050eaa20e28213f,
+            limb1: 0x568b177801be48beeffc7139,
+            limb2: 0x43bcc35bc8a3dc8
         },
         r1a1: u288 {
-            limb0: 0xea9d027e1407ea9ff66664c7,
-            limb1: 0xb1cf7704966095ee352ae971,
-            limb2: 0xb0e48caf9f1bbc0
+            limb0: 0x9b81c80ab5fb2548ea556dae,
+            limb1: 0x248000c75022947603f79680,
+            limb2: 0x23d739fd8583db8b
         }
     },
     G2Line {
@@ -1517,24 +1517,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x29e76e77aae80c424dc06f8f,
-            limb1: 0x9ee7da91b68447218da0e406,
-            limb2: 0x21fa3705c5145e26
+            limb0: 0xb400a26b4d71d3070ba49801,
+            limb1: 0xa8786b577a249eeecc32a112,
+            limb2: 0x17485788aedcf6e6
         },
         r0a1: u288 {
-            limb0: 0xb55b23e587344591e346cb97,
-            limb1: 0x287243f9adbdc2493b88dd63,
-            limb2: 0x1b8a5470966a77bc
+            limb0: 0x711dafd349f17fb255dd0692,
+            limb1: 0xdbb96004097e40167511d9e4,
+            limb2: 0xb57574eb7926338
         },
         r1a0: u288 {
-            limb0: 0x55dd880c381691e4cdbd7cd3,
-            limb1: 0x46d4a020adcca6528f04c5e,
-            limb2: 0x11945de080efd7c5
+            limb0: 0xd1df32a331757452211533e9,
+            limb1: 0x315c062d2d60a79d5543b2da,
+            limb2: 0xa7a3317073a2473
         },
         r1a1: u288 {
-            limb0: 0x3d465de30fbc90509715d079,
-            limb1: 0xae678c63ed0f235b8746eba7,
-            limb2: 0x14a3298c34cd8407
+            limb0: 0x82804239dbf8f93eb10d5fc3,
+            limb1: 0xfb4f604596715dd8121c159e,
+            limb2: 0xc3c82bd00d58825
         }
     },
     G2Line {
@@ -1561,24 +1561,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xd4c9b7ab36aeb27878d256f7,
-            limb1: 0x1dc1aed3f714484b5c44390f,
-            limb2: 0x16dcce776225942b
+            limb0: 0x828816aa1d772a294bb5e493,
+            limb1: 0xb914a6802271781e322ff920,
+            limb2: 0x1a31a8d90ce97e0a
         },
         r0a1: u288 {
-            limb0: 0x38c5752785f75699bde78914,
-            limb1: 0xa2a778d25cfe6e7944f49798,
-            limb2: 0x21da649d231f9762
+            limb0: 0xe966c2ccf9ce0e818bdb70e3,
+            limb1: 0x452513c129ebbf0e05a2af46,
+            limb2: 0x2b5b9ee34e80d4be
         },
         r1a0: u288 {
-            limb0: 0x7c0f17d8aef1111161e02f4,
-            limb1: 0xf2d6fecefeca49dedfee4057,
-            limb2: 0x78b40584dc1342b
+            limb0: 0xbed7d88350d1914f86af5a80,
+            limb1: 0x2ebebca7158847b1d09b6805,
+            limb2: 0x2a792bb3f10b06f0
         },
         r1a1: u288 {
-            limb0: 0xb3eee91f9f69a5c3517d015,
-            limb1: 0xae6a22ed706453b489f5403,
-            limb2: 0x270773e180fb10da
+            limb0: 0xe3aff430cc7ca954d529dd4e,
+            limb1: 0x9a67d6b2d37d4873003f1f7,
+            limb2: 0x61db5bb53c036db
         }
     },
     G2Line {
@@ -1605,24 +1605,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x6f5489af74a11a2082b184d7,
-            limb1: 0x900893bcad1c8317b40bb84d,
-            limb2: 0x27415d710a776c53
+            limb0: 0xab41d158cbeea52ad5dbc6a7,
+            limb1: 0xb94905428ac711c0550e4dc9,
+            limb2: 0x88d4e1f20e1d9bf
         },
         r0a1: u288 {
-            limb0: 0x7c06b1b6b8fa9038490c6144,
-            limb1: 0x9e5ea1f31baf5af33ea3731a,
-            limb2: 0x24ef717006a7288a
+            limb0: 0x687896de34258adbaf9b7022,
+            limb1: 0x2fbae59f2a4a819a17282aa2,
+            limb2: 0x2cd864f80d46ae44
         },
         r1a0: u288 {
-            limb0: 0xa538240080d97749ded38eae,
-            limb1: 0x726bf74c52e6dde66f0691d,
-            limb2: 0x2aba8bbbfc385ade
+            limb0: 0x4daf41f782a33e9b6e8d10a1,
+            limb1: 0x29e66b4dec6abece67d0ead1,
+            limb2: 0x28053f91b1c0ba22
         },
         r1a1: u288 {
-            limb0: 0x1cd5b032dacab0841955c219,
-            limb1: 0xf10b16fddb513c5c41170a59,
-            limb2: 0x2129cd2859a66f18
+            limb0: 0x3edf7d4fc40e2860039fbaff,
+            limb1: 0xc9b0f7d626705afe6643dcea,
+            limb2: 0x5e16a87bad8c1a6
         }
     },
     G2Line {
@@ -1649,24 +1649,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x9f216959363cb1fc61e9d23d,
-            limb1: 0x851168faf1306007fa583780,
-            limb2: 0x31fa9c0eef32a12
+            limb0: 0xb01fc240dddd1b03268f8fc0,
+            limb1: 0xe81069b50f20a781c530c1f5,
+            limb2: 0x22e0b96438dd1381
         },
         r0a1: u288 {
-            limb0: 0x622103ea3b10551833482424,
-            limb1: 0x90492ab180ff9dcf572b03d9,
-            limb2: 0x17bb8016ebf9d768
+            limb0: 0x29359f92779fa7921f0cd2e9,
+            limb1: 0xa0c9ab87ed750468145ebbd3,
+            limb2: 0x9c8168df69039aa
         },
         r1a0: u288 {
-            limb0: 0x259906dd50a9043897c88fb6,
-            limb1: 0x620893feb463082a9a67364f,
-            limb2: 0x1da79c070a3f9831
+            limb0: 0xc8f2643b9f0ce8eec653b45d,
+            limb1: 0xf2ba77dbded9413974d99827,
+            limb2: 0x79f74f624728f43
         },
         r1a1: u288 {
-            limb0: 0x9eafcd967999f5e02f998072,
-            limb1: 0x82f9a41c0217d4120d1c1104,
-            limb2: 0x1c07be96aefa5c81
+            limb0: 0x768c91b619e9294a7dadca6,
+            limb1: 0x92b4bfeef43e1bbee90aaba0,
+            limb2: 0x9deb11840aff404
         }
     },
     G2Line {
@@ -1715,46 +1715,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x6ce206e15361280bcf022e65,
-            limb1: 0x5313bf20fefb61b1a80c4479,
-            limb2: 0x23fed36b6e9eb3f
+            limb0: 0x284c8811ad6d2dd5a9cda75a,
+            limb1: 0xe7943a66e5d21eff8b94b389,
+            limb2: 0x102a507ebb376d6b
         },
         r0a1: u288 {
-            limb0: 0x12129447bf42e448ece66149,
-            limb1: 0xda5c9b35e2a0ec9ec2298505,
-            limb2: 0x16ca000286c9feb7
+            limb0: 0xa75e606a657113fa6c7e85a7,
+            limb1: 0xcb923ce9138f3fb29564699f,
+            limb2: 0x1e4d3b19c862a4f6
         },
         r1a0: u288 {
-            limb0: 0xc39f5519b3dd9afb13f0598,
-            limb1: 0x33df5f727fe9dfc0b2201d0e,
-            limb2: 0x2bb031b074e622e3
+            limb0: 0x4b12759a238ba76cd99b30b8,
+            limb1: 0xce5a562ba649d909f956779a,
+            limb2: 0x2d8aa5260f26897c
         },
         r1a1: u288 {
-            limb0: 0x6ada35c4f8dd746e92a980ac,
-            limb1: 0x4a91bcd1b0b0acbc9c01970d,
-            limb2: 0x12cafd940f1a2705
+            limb0: 0xdef7acdaa40497a0a5106aab,
+            limb1: 0x9b35ec3a30e9819495706f86,
+            limb2: 0x84b5bb43605a922
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x5d067403664de8095e0f698d,
-            limb1: 0x5ba0130f69f8239c8956041f,
-            limb2: 0x5ef7b1219d05dd3
+            limb0: 0x6f485284ce3ede4bf9719ca2,
+            limb1: 0xbd4c15edd3798f460e4c8988,
+            limb2: 0x102ebfed7a3aa6aa
         },
         r0a1: u288 {
-            limb0: 0xe540862b27660452cfea9804,
-            limb1: 0x9fdf2a9979b8b2319a6feb9d,
-            limb2: 0x2254a128daf89c71
+            limb0: 0x770a492dda4bf16b2c6706aa,
+            limb1: 0x411392f00451f1adc6bef6bb,
+            limb2: 0x26c1a80243706fb0
         },
         r1a0: u288 {
-            limb0: 0xaa08bea756d2939fd46ef225,
-            limb1: 0x84ea10dbea009d79a601751f,
-            limb2: 0x5054fb0292736d2
+            limb0: 0xd8fa6c96fd186b110d490044,
+            limb1: 0x56a3f1ce5ae49c484a645ce3,
+            limb2: 0x14c209e04d31cea2
         },
         r1a1: u288 {
-            limb0: 0xa8c52e6768108001bdbec50a,
-            limb1: 0x3c5bb0bf3feaddeb90221477,
-            limb2: 0xd163cb7591d3795
+            limb0: 0x40ca280ba730e6f431dcd82e,
+            limb1: 0x66916eda30dbb35ec168d02,
+            limb2: 0x264dc5888a8e64d2
         }
     },
     G2Line {
@@ -1781,24 +1781,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x58c9f160aada6c4ab2d866cb,
-            limb1: 0xd5102774a83ac7a214dd8a3b,
-            limb2: 0x1895d121eec7ae12
+            limb0: 0xaf37716cb70ffa190269fe6e,
+            limb1: 0x9a6f98b325331f451eef76a2,
+            limb2: 0x17707a43a7313310
         },
         r0a1: u288 {
-            limb0: 0x1fbc3a8ece31d22d5253c4d4,
-            limb1: 0x279491442d43bfb1202d023,
-            limb2: 0x1b6332f2673e2629
+            limb0: 0xc919942e866d4b32686a9f33,
+            limb1: 0x816f126bf725c12d557c9a15,
+            limb2: 0x26142565a7a615f9
         },
         r1a0: u288 {
-            limb0: 0xc6b9d2b03a28fe46a4b58b29,
-            limb1: 0xbca712455892152300148d43,
-            limb2: 0x23974b9585dbe894
+            limb0: 0x7946d471041d4ea48eb6fbdb,
+            limb1: 0x171b3239a2cc7795e6a2a924,
+            limb2: 0x20628a6652be5e90
         },
         r1a1: u288 {
-            limb0: 0x3966e27e3bd6a2c86443b25a,
-            limb1: 0x5c0c0c4202623fecf68d6469,
-            limb2: 0x2335dd3132a457a9
+            limb0: 0xca57eb40f10cca3ef3fc7250,
+            limb1: 0xe6b980c9de5b006d30752840,
+            limb2: 0x2d5c810491a6dc4e
         }
     },
     G2Line {
@@ -1825,24 +1825,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xaf6c0a27959b059254945175,
-            limb1: 0x21417409900afe5fddb72c57,
-            limb2: 0x287dc1a45d63970b
+            limb0: 0x333d86c54faef49d1a272e12,
+            limb1: 0x8c0c84b1efb5a907ffdb3216,
+            limb2: 0x21a8616f00a6d7e6
         },
         r0a1: u288 {
-            limb0: 0x78c1498bee8d7a1c5d0b3c5c,
-            limb1: 0x4ed96e73eedc430752038611,
-            limb2: 0x23aa350834c86111
+            limb0: 0x37da7095fb87a538eeb3bf6c,
+            limb1: 0x2728e922402bcd4d4bf8d94c,
+            limb2: 0x2c454663b8c8602
         },
         r1a0: u288 {
-            limb0: 0x575d6cea1a713122233b3556,
-            limb1: 0x2c0c299be183c656c4c928f5,
-            limb2: 0x16f383d399981290
+            limb0: 0xac234a2d31deed2430bb2dfc,
+            limb1: 0x676ce2d28ad5120d8dd2de90,
+            limb2: 0x4e8f1240ee4f596
         },
         r1a1: u288 {
-            limb0: 0x3c69db9bb3ff5a2401c04108,
-            limb1: 0xce2d55346abcf6a3b531c70d,
-            limb2: 0x2c08f908b5412127
+            limb0: 0x1b9cc2ab22d22c1626302f75,
+            limb1: 0x38398f455d7b853e9c1efc67,
+            limb2: 0x2c050b8199ec1f0d
         }
     },
     G2Line {
@@ -1891,46 +1891,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xaa7927261f17d1116da4670,
-            limb1: 0xf60bb251b093ccab1638ae6e,
-            limb2: 0xff0f3c4a6acf083
+            limb0: 0x8bb78ad871c2916b5b7e8414,
+            limb1: 0x50d7473b4af62956403d43c9,
+            limb2: 0x29154400d01044c6
         },
         r0a1: u288 {
-            limb0: 0x4ed2bd2bf8489f6b5695b5f7,
-            limb1: 0x4cea33f1ec20d131074f4ac5,
-            limb2: 0x2f380a984122f54d
+            limb0: 0xab8cd7143e28553a2ed191fd,
+            limb1: 0x67ffeff41b1dd913c3a5500c,
+            limb2: 0x2d64de9fb142316a
         },
         r1a0: u288 {
-            limb0: 0xd686a3af8433c06cddba797,
-            limb1: 0xf3c794647b00b545f44f1895,
-            limb2: 0x1c4c175665e6707c
+            limb0: 0xb55d80257b157f6fe8848d4b,
+            limb1: 0x84c9f429b698c019fd80ac2f,
+            limb2: 0x7e7e91ec4649d8f
         },
         r1a1: u288 {
-            limb0: 0x1baa31cdafce59e69d0074b7,
-            limb1: 0xf8c84899036207b639306b50,
-            limb2: 0x2b38dfacb6743e6f
+            limb0: 0xa8c174cae6924a176586e48f,
+            limb1: 0xe89ac67427e89674046617c6,
+            limb2: 0xf32f91b270183bb
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x70c268959beeaf9c3d97ad7c,
-            limb1: 0xaa4b4a18b51297fe72cef5e8,
-            limb2: 0x2df6582c8ab6d02f
+            limb0: 0xc1e43465c66fe5958d303590,
+            limb1: 0x87d26642d8c96e8dd4dbf322,
+            limb2: 0xa245d352d417ac4
         },
         r0a1: u288 {
-            limb0: 0x36e2af2462de47495d7bfe1b,
-            limb1: 0xecb620a1607b1844d129ba47,
-            limb2: 0x29a481d89b07193d
+            limb0: 0x4996a757c75edd4eb7231e60,
+            limb1: 0x604760727385cf87fa8be081,
+            limb2: 0x6d19475a25c73b7
         },
         r1a0: u288 {
-            limb0: 0xe808b23a5fe80604ef6e3566,
-            limb1: 0x3a9030e7e4b497ee3e7316c2,
-            limb2: 0x131f37d18b546591
+            limb0: 0xc46102da845957788adf21a8,
+            limb1: 0x2d5df02d76016e0715760d07,
+            limb2: 0x2c02ed045da45862
         },
         r1a1: u288 {
-            limb0: 0x285e96b9828f4b32bab17753,
-            limb1: 0x880267e4dd975850bcd66c6f,
-            limb2: 0xf28f1fbd7d889a6
+            limb0: 0x62bdca16a86a9fa3b05186df,
+            limb1: 0x9b9588f7180d603a45c7645a,
+            limb2: 0x18b4992921ff86e6
         }
     },
     G2Line {
@@ -1957,24 +1957,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x2779d9dc98140c8e6dfee744,
-            limb1: 0x2fca24ab2ee62b79fd95c2cb,
-            limb2: 0xd1b883d09bff129
+            limb0: 0xde14be78eeda4944aad6a8e7,
+            limb1: 0x8c798766dab5a9302327a855,
+            limb2: 0x4dd4d29816f884b
         },
         r0a1: u288 {
-            limb0: 0xaa960fac0f26be0620219613,
-            limb1: 0xa6f0e5514830d79718e1e292,
-            limb2: 0x152c98a02008b0fa
+            limb0: 0x76768be146832cb2f414c365,
+            limb1: 0x849e29ce7075631f667aaf2a,
+            limb2: 0xcf629e90214d68d
         },
         r1a0: u288 {
-            limb0: 0x7b83ff5ea437080cf6383beb,
-            limb1: 0xcbf1211d93ab6fa712ed213,
-            limb2: 0xf8c98d5987a65a2
+            limb0: 0x63e29a4af44e39f0293c1d04,
+            limb1: 0x36d168327940e944c28d14f0,
+            limb2: 0x28f8d3466a4b033a
         },
         r1a1: u288 {
-            limb0: 0x7f1b018ecf9e1cc80cb85f6e,
-            limb1: 0xf34f7d8f39373dcf79baa1c6,
-            limb2: 0x849e2c49636fe04
+            limb0: 0xd4c63aec9bc7952bc1478e46,
+            limb1: 0xd1042b5a6474acc8a3e27515,
+            limb2: 0x49522bb55559604
         }
     },
     G2Line {
@@ -2023,46 +2023,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xe00037a40ea9443a9bd2d22c,
-            limb1: 0x72ef477033f6f8ced4c18972,
-            limb2: 0x9b968e42d479949
+            limb0: 0xa1801d81519df142cb17d191,
+            limb1: 0xbf77e5551dd3c14d1b405988,
+            limb2: 0x510d13e5d9ac34b
         },
         r0a1: u288 {
-            limb0: 0x7be967a98311df0f34582230,
-            limb1: 0x47456d272ca01832a728b09,
-            limb2: 0x156cdde023715bfd
+            limb0: 0x5129fc21a9a2edf69d3d465c,
+            limb1: 0x9f8ff7b5b3f49ba4b2c0f688,
+            limb2: 0x27f47b07a9c03b7b
         },
         r1a0: u288 {
-            limb0: 0xb3ce6518cd4c58061601a269,
-            limb1: 0x387d37bb51fbb6be610e8098,
-            limb2: 0x2457f49a9de87224
+            limb0: 0x6a1b2d2432fd9731ab2fabdf,
+            limb1: 0x7dcd6e3094dec8f41edcff59,
+            limb2: 0x1b7c13a1a43efba1
         },
         r1a1: u288 {
-            limb0: 0x74e0adfdbce0495e3112653b,
-            limb1: 0x5c3a363138ffee1197cab2f6,
-            limb2: 0x19a8a4c4d9d76e81
+            limb0: 0x68e1487dbc8760db7b8a44d6,
+            limb1: 0x59efe2da2adb7b16016ef836,
+            limb2: 0x290ad9914f7a497e
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x6c95c0c7f583d9b615efbebd,
-            limb1: 0x89e46d991071ddfcd618ae8e,
-            limb2: 0x103db15dfdef704b
+            limb0: 0x9274d2297537f61b323b5bb,
+            limb1: 0x30833f5380248cff5e784f4b,
+            limb2: 0x1fcc6013d362d212
         },
         r0a1: u288 {
-            limb0: 0x89dab12d7943928550315a48,
-            limb1: 0x36c3e8a7efcd74b11dbb48d2,
-            limb2: 0x29f8a790c85fd36a
+            limb0: 0x3141240398b8a81b57cf43ec,
+            limb1: 0x509057f1a4d0aeabeab175d,
+            limb2: 0x1ebeb9ed3f759610
         },
         r1a0: u288 {
-            limb0: 0xa5531915aa4f67492623afc1,
-            limb1: 0x8bce5c483fad803b740e6f2a,
-            limb2: 0x206a8cd40324512
+            limb0: 0x9aaeceb349cd7fde65f0e601,
+            limb1: 0x74ec33f8c42ce0b1a8fe5037,
+            limb2: 0x22ab6ed2de37526c
         },
         r1a1: u288 {
-            limb0: 0xb94ddc063e7fe3798b44890b,
-            limb1: 0xd37de941a4cff2f01d74b8db,
-            limb2: 0x41bcfce1ac7f32f
+            limb0: 0xfa2d4136f32e7ec8dbf08429,
+            limb1: 0x9cfc415e73a3e591b00939b5,
+            limb2: 0x1ff0c2bd0711bc41
         }
     },
     G2Line {
@@ -2089,24 +2089,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xcdd05472ec02291f1d40b87e,
-            limb1: 0x30912f2f14c8393c22eb6ba6,
-            limb2: 0x2c080120213ff830
+            limb0: 0x993a60d3076b2fcb40033195,
+            limb1: 0x2e29d706c287569d77a7b1c2,
+            limb2: 0x269221ad049d5afb
         },
         r0a1: u288 {
-            limb0: 0xc37e4827179be9f52502e8df,
-            limb1: 0xd066d84e32614e72f9478a9d,
-            limb2: 0x1016c1820f5ff2e3
+            limb0: 0x6b7904d81e8c660e24afb560,
+            limb1: 0x8bdf5819ab304e0b04b1368c,
+            limb2: 0x5be9f426a7f2f35
         },
         r1a0: u288 {
-            limb0: 0x3ae66fdce5961239f8a46962,
-            limb1: 0x147a1843dec4b7e2ecf13df9,
-            limb2: 0x4755d25ceaaa20e
+            limb0: 0x346837b47c510e1cad851036,
+            limb1: 0x4b72c6aeb2636f2edff8ab1e,
+            limb2: 0x21ad9b9b44d12a29
         },
         r1a1: u288 {
-            limb0: 0x739b73b4e0defe87a8191cf6,
-            limb1: 0x37b0e997eb4b4e912a84dbe7,
-            limb2: 0xeafd7b9657997d8
+            limb0: 0xaf9943d6412658af15c19d2e,
+            limb1: 0x798a2e07e0edd299da720bf5,
+            limb2: 0x203f583b72d338c7
         }
     },
     G2Line {
@@ -2133,24 +2133,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x9b77652272d762571b1a8c9c,
-            limb1: 0x23193d11cd25e9ed4c5d6017,
-            limb2: 0x192243efee966d48
+            limb0: 0x5462e20595c7c7053cbb03dd,
+            limb1: 0x4720c5322b7488aa96f0bbdf,
+            limb2: 0x265f8741ea749793
         },
         r0a1: u288 {
-            limb0: 0xbbf471db5a1d1a5088982f75,
-            limb1: 0x587b58f9a23ffe82b43240e6,
-            limb2: 0x2111e8bd44fa7d7b
+            limb0: 0x8c306a4a8fd1795c6120124f,
+            limb1: 0xc3a571695b1de762f962e723,
+            limb2: 0x122b6a6faa9aa2bd
         },
         r1a0: u288 {
-            limb0: 0xae90c7846a6082f9f8770376,
-            limb1: 0xb66d85a86e4b2af850d99ebe,
-            limb2: 0x17da88f519ba7b19
+            limb0: 0x74441addc07314a4de20741a,
+            limb1: 0xbe8c7ca806294b47faef0221,
+            limb2: 0x4e17000d8970162
         },
         r1a1: u288 {
-            limb0: 0xf5c5ab21a9145724b1473607,
-            limb1: 0xaef1ff847ea4363eade22267,
-            limb2: 0x288bf44d2156223c
+            limb0: 0x6d1adb961119711a3cafb23,
+            limb1: 0xaac01ad7cc049be6c969c94e,
+            limb2: 0x1a9a9b99e603cf00
         }
     },
     G2Line {
@@ -2199,46 +2199,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x26673a79d5ec99abaad373d2,
-            limb1: 0x8fd422ecbf5c346f53638510,
-            limb2: 0xafb5cff5e5cf420
+            limb0: 0xbd7acf0078a80c3cb4c4c604,
+            limb1: 0xebf1184f0e0ce450200e46e8,
+            limb2: 0x1f09da33b0853cf4
         },
         r0a1: u288 {
-            limb0: 0xef84f62eafbd4f742d4e323e,
-            limb1: 0xc7a5e46852ab949702b4f740,
-            limb2: 0x7ff051fe5df65bb
+            limb0: 0xe92a9d017ecb1a61a6a1c424,
+            limb1: 0xfebb615f4bb6b0b7a81e4b3d,
+            limb2: 0x1748d630f5249bbf
         },
         r1a0: u288 {
-            limb0: 0xb82c418df3451fde18d7ef76,
-            limb1: 0x50e8de3ed0fa1e4627a9142d,
-            limb2: 0x1e3345d84318b382
+            limb0: 0x3578560a6f96b84e5d921703,
+            limb1: 0xbabaf3a511cbb68d0162b4a1,
+            limb2: 0x1fe47ab555d32994
         },
         r1a1: u288 {
-            limb0: 0xf255de66b08307ba7b246518,
-            limb1: 0xd333789d454fb7e6a5332957,
-            limb2: 0x13fa7d7de38e9a8f
+            limb0: 0x742986f61e2f4d5cb4d2530a,
+            limb1: 0x2e69b91cca05fa042c1f850d,
+            limb2: 0x17b3068ce04ca4a7
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xdd08654b410b85909a1e6ed0,
-            limb1: 0x7b924d01eaaae10516362e0f,
-            limb2: 0x1c095c776771d56e
+            limb0: 0xecf757b7ec4c389546704676,
+            limb1: 0xd61ad0cd9d1d3dc62d4488d2,
+            limb2: 0x12a61d1ffa5812f9
         },
         r0a1: u288 {
-            limb0: 0xb44ec81a5c9e7d41bfdfd454,
-            limb1: 0xe9bdd36074c77a3c0fc87966,
-            limb2: 0x2baa9b1d6060427a
+            limb0: 0x279a422a5b2a3133faadf7b1,
+            limb1: 0x5bd497293777db375d99d9f6,
+            limb2: 0x1d96d4aaea8d375f
         },
         r1a0: u288 {
-            limb0: 0xca84dad7cd13875f4ad0ba96,
-            limb1: 0x2f146f6c63838addc83857c6,
-            limb2: 0x2b52136a4c355217
+            limb0: 0xb20632aa8f4dfb49152886d8,
+            limb1: 0x17629c86a955187df7656e0d,
+            limb2: 0x1c44c22b6918b719
         },
         r1a1: u288 {
-            limb0: 0x77b533c24884e9a7a3df3dce,
-            limb1: 0x38cd416316640eefa4d38c4d,
-            limb2: 0x24a6b1fc916ec639
+            limb0: 0x7913f0181af1da1b5883c45a,
+            limb1: 0x57fcf609ed0482c28476377f,
+            limb2: 0x2ce0704af0da7db3
         }
     },
     G2Line {
@@ -2265,24 +2265,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xfe679d0556241232ff6bc4ff,
-            limb1: 0x73debbe2e1b317d42392a0aa,
-            limb2: 0x23ecf4aa05d94b51
+            limb0: 0xd094776dc192dabd02ff3eb9,
+            limb1: 0x6b67824958b77620342f35c0,
+            limb2: 0x205ad7a84d99edc
         },
         r0a1: u288 {
-            limb0: 0x602274542b9057b117e32d66,
-            limb1: 0xada6d5b334ac664bcb9321ae,
-            limb2: 0x1e43f8d347ecac96
+            limb0: 0x8d1c085e352e5921cef1d375,
+            limb1: 0x81e1d02f8f71405aabfef7cc,
+            limb2: 0x2ec229e6f6c347cf
         },
         r1a0: u288 {
-            limb0: 0x189d8da83069805f4ee0abfb,
-            limb1: 0xaf62e16f30b56c7e77bf1e10,
-            limb2: 0x14e1423ae9e1015b
+            limb0: 0x8f08a7731b98905811ca167,
+            limb1: 0xb7e2436c2de6298d28945394,
+            limb2: 0x127ea198bf8f8e4b
         },
         r1a1: u288 {
-            limb0: 0xd4ace9807a3b3175b22d2050,
-            limb1: 0x212acbd2bbf9795e4dada345,
-            limb2: 0x56a12bccb22fa2c
+            limb0: 0xdb20f86863f5d0fd118f8911,
+            limb1: 0xd4cfa65a4aed4de25896994e,
+            limb2: 0x3ec673735a9268
         }
     },
     G2Line {
@@ -2309,24 +2309,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xd55de998bca4069de131228f,
-            limb1: 0x9fa83149bcf7a18b68ed6024,
-            limb2: 0x2a37ef90ae45d127
+            limb0: 0xfe696d0efac3f460429c7fee,
+            limb1: 0x9af12605e62fff83baa7372b,
+            limb2: 0x17ffb63bda2b88a5
         },
         r0a1: u288 {
-            limb0: 0x8b370395890809951fb3f4b3,
-            limb1: 0x7afddaf7706d8a850a6c7e31,
-            limb2: 0x27820710180d094f
+            limb0: 0x3ab2d5e97b785fb8faabc290,
+            limb1: 0x12d3721138c695d6b75dc67d,
+            limb2: 0x20a7e11ee6083d2b
         },
         r1a0: u288 {
-            limb0: 0x15e13a593d749e6afc8d6029,
-            limb1: 0x5c5c7afe8288511a8e26522f,
-            limb2: 0x37f3c9ccfe22060
+            limb0: 0x70047e4dbe7ca86ada40db36,
+            limb1: 0xa6b450fa0d71ba2b84328a86,
+            limb2: 0x1072e3b9b6dcd19f
         },
         r1a1: u288 {
-            limb0: 0xec22a3080b09d23dd157a72a,
-            limb1: 0xf570722f4764a8cf4f0d4ba9,
-            limb2: 0x2ec141b00418d273
+            limb0: 0xeebbcc26eb3ed05295cdfadf,
+            limb1: 0x5a458bad9d32f600bc0026d4,
+            limb2: 0x618dcb54b114f46
         }
     },
     G2Line {
@@ -2353,24 +2353,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x24c925fc854795cb54568ae0,
-            limb1: 0x8ac06a0b78367f4f6534ced2,
-            limb2: 0x1fed58fc314a608e
+            limb0: 0x900234dbbc932052b808345a,
+            limb1: 0x66736d925770484bb6d8348b,
+            limb2: 0x1c865a1d5322b74b
         },
         r0a1: u288 {
-            limb0: 0x12f71d9a7268bf52f54dcd90,
-            limb1: 0xdc7ca2fce0c02c032e3a06d9,
-            limb2: 0x162a42ae65cf79d2
+            limb0: 0x10747eefc191119c4fb4bad8,
+            limb1: 0x6edc56116b2c98b14ac161ac,
+            limb2: 0x16715c9244cc29a9
         },
         r1a0: u288 {
-            limb0: 0x89ba08db9b23e62c5c01c781,
-            limb1: 0x61b243aea9f10d0ae2582121,
-            limb2: 0x26362b8e0175794e
+            limb0: 0x65082e398209d233dab72c28,
+            limb1: 0x5264e6bf1dd106fe4795ce7a,
+            limb2: 0x267edf142eaf108b
         },
         r1a1: u288 {
-            limb0: 0x2bc690a556844f350e9bc841,
-            limb1: 0x96a6d485a5228b0eb784c57a,
-            limb2: 0xff66db5f475332b
+            limb0: 0x98bad415cc9167c462f33377,
+            limb1: 0xa88486623a78e052a97fd47f,
+            limb2: 0x2cf47855fb8fa575
         }
     },
     G2Line {
@@ -2397,24 +2397,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x53258d55dc4d8da265cda150,
-            limb1: 0xdd9c34773309085da657c1c2,
-            limb2: 0x212b0156cbb9ac9a
+            limb0: 0x8f8da30f1864dc0e73daa128,
+            limb1: 0xf30e809e04fd370af67b6bf3,
+            limb2: 0x10c966ffecf1e1f2
         },
         r0a1: u288 {
-            limb0: 0x7005e98e7eb717a158fa68a9,
-            limb1: 0xeead2fa710dfc06ea9a8fe08,
-            limb2: 0x5a5204291167a60
+            limb0: 0x1004bf8f766afba24b61c795,
+            limb1: 0x7977fa46e422750d92a7771f,
+            limb2: 0x1e270344b2f54cdd
         },
         r1a0: u288 {
-            limb0: 0x5ed64f6e8bffd32bfad24632,
-            limb1: 0x135bb6401cbc688da94bb3ec,
-            limb2: 0x1b747bbf1dc94ca9
+            limb0: 0x192a946e04969a31574038d9,
+            limb1: 0x95d9e317da4329222fabcf2b,
+            limb2: 0x2d139635f129a385
         },
         r1a1: u288 {
-            limb0: 0x23d98b30c1708e942544fde7,
-            limb1: 0x8561a1bafc384d9d0d3d93df,
-            limb2: 0x12d58fa55c5aa60c
+            limb0: 0x93f29deebd072dd5f4d585f3,
+            limb1: 0x6c60709ca4a0ab426bb50fc9,
+            limb2: 0x1b5272981e4228ce
         }
     },
     G2Line {
@@ -2463,46 +2463,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xb9a219a56c26f35a66458e3b,
-            limb1: 0x6dcecd3378ecabe09b090935,
-            limb2: 0xf7d71c3ee1eaa86
+            limb0: 0xe87e9c699b2237029ad3713d,
+            limb1: 0x58d00ca6d43c801229e7fa17,
+            limb2: 0x11d1dee18990376
         },
         r0a1: u288 {
-            limb0: 0xba491041920d91ca45007d99,
-            limb1: 0xe71450283a44d543a574991b,
-            limb2: 0xe3b83ede542c4fc
+            limb0: 0xf905620c5900d1abb90eba1d,
+            limb1: 0x41ddf6ef6499a826fcf9917c,
+            limb2: 0xc58ad782801d24f
         },
         r1a0: u288 {
-            limb0: 0xe4416b0de10ebdd67fbf83a3,
-            limb1: 0x9a10e7cbe66bdf67507f9ec3,
-            limb2: 0x87a1786e3728db6
+            limb0: 0x3ae74c78fc3918af944e985d,
+            limb1: 0x275fcbeddb102053ee136470,
+            limb2: 0x2f06d85a4c3b6e9
         },
         r1a1: u288 {
-            limb0: 0xf91c326b22c8803ec67dd7b,
-            limb1: 0x53f613932fbebaadcdab70af,
-            limb2: 0x21e9ee300c61bfc0
+            limb0: 0x79ab6889d244768c590d478e,
+            limb1: 0x2f94b93f831f9723a11e4d93,
+            limb2: 0x125d0e11d2bd9d34
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x8d21bb6ae3b3f7b81246a514,
-            limb1: 0xb8d57b699e6309f7c38c533b,
-            limb2: 0x865b2a544e3c6b9
+            limb0: 0xed5f859a5bc56bd07823fdf1,
+            limb1: 0xc5dd16001f40c3979a665144,
+            limb2: 0x1387c0dd81140ed4
         },
         r0a1: u288 {
-            limb0: 0x28c1dfa7c6cd489c2304891b,
-            limb1: 0x972a534601bac74fc65c6c0f,
-            limb2: 0x2c186133393be699
+            limb0: 0x219ab1591672446ef42501e8,
+            limb1: 0xcbb4420be06650fd6d36d51c,
+            limb2: 0x18f6f5506c502718
         },
         r1a0: u288 {
-            limb0: 0x9ca2404c24c338824b4dccba,
-            limb1: 0x9ce47d679cbcbe7d26a02b2,
-            limb2: 0x22e11190b538e049
+            limb0: 0x4447edebfe3ff81ec5b99e68,
+            limb1: 0x38fb992c0c23719d5d7e27aa,
+            limb2: 0x1c6a432886709e8c
         },
         r1a1: u288 {
-            limb0: 0x19f438145340c969455de42f,
-            limb1: 0x72143c379d6c64d71f0fff75,
-            limb2: 0xb209f1080dc89a3
+            limb0: 0xfd3b7caaa5d2e37621d62efd,
+            limb1: 0xa6a986e8dcad4303e837a1bb,
+            limb2: 0x1a6f80e8e0d5ca57
         }
     },
     G2Line {
@@ -2529,24 +2529,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xf5a5f6ae30b0fbd021421e27,
-            limb1: 0xb63bc80f81d446b8531163c4,
-            limb2: 0x2d79742ba96ad5ae
+            limb0: 0xe9f4d7a9b8b6371bd2997770,
+            limb1: 0x5281176604b515a5cfc7dbd7,
+            limb2: 0x1d49a7323df26eb4
         },
         r0a1: u288 {
-            limb0: 0xec2317c4d4532960969d5bc4,
-            limb1: 0xc9601079a551f46e96dfc377,
-            limb2: 0x1c902f2f327ae344
+            limb0: 0x8e65c0cace0deb5b06374826,
+            limb1: 0x79be2b653cef8ac9d3449816,
+            limb2: 0x1c4e7af62e2ce62
         },
         r1a0: u288 {
-            limb0: 0xfcfaf4a8db7bc4901936a878,
-            limb1: 0xa33e92531182ef7bf8914bd8,
-            limb2: 0xd1f3c7b940b167c
+            limb0: 0x42ae60ed7119cc16b2817520,
+            limb1: 0xd9ae8874d28cb508539a0d83,
+            limb2: 0x18c9206d89bbe369
         },
         r1a1: u288 {
-            limb0: 0xed6e78845120213dae81631c,
-            limb1: 0x9efc452d843c0e7eb84a182e,
-            limb2: 0x2f645a5c1424c08f
+            limb0: 0xa60175434bff98c998734a7e,
+            limb1: 0xb6c3aaa2a4c797c3e6b93ec0,
+            limb2: 0x12aadecffd9c7091
         }
     },
     G2Line {
@@ -2595,46 +2595,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x35873c0cf2f1c99696e76a6c,
-            limb1: 0x85ce22047a0bca028d145cf7,
-            limb2: 0x18ab8fc80bdf2c3a
+            limb0: 0x73cb0bf17f0495a9b5346916,
+            limb1: 0x179df1932219a6089191d32e,
+            limb2: 0xa8a8a9058896759
         },
         r0a1: u288 {
-            limb0: 0x8dcc8638f7dcf74417503c38,
-            limb1: 0xf0749967724e6810d91bf65d,
-            limb2: 0x6016c573f1f9a42
+            limb0: 0x180f152055e10a40f298ef18,
+            limb1: 0xba6dc2d25b0f787402579b45,
+            limb2: 0x7dc71d251d3c123
         },
         r1a0: u288 {
-            limb0: 0x1a60f753a8360061077aad04,
-            limb1: 0x4f2483ca135557c0903f63f6,
-            limb2: 0x2867a721131893ad
+            limb0: 0xe1b3824b1691783c0fae9b66,
+            limb1: 0xf0fa3663b1f08c42069e4dd,
+            limb2: 0x1c587114c1e2e9ea
         },
         r1a1: u288 {
-            limb0: 0xf7a909fd1c08a9a38eb54542,
-            limb1: 0x53d0b1311e16d7159c9ce672,
-            limb2: 0x1847305b0784dcd
+            limb0: 0x364dfb38fefcfc4e28db99da,
+            limb1: 0x1fde227a705a530cd7f7bbaa,
+            limb2: 0x25e7b19d7e8c1f5c
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xc94c260abf64fd8f8398c959,
-            limb1: 0x9d87657b9d1568255316a3a5,
-            limb2: 0xf4a944af61ec241
+            limb0: 0x3b74f2476d8db9f9feef0234,
+            limb1: 0x870758c6700ccd8d9d303184,
+            limb2: 0x1cc91b5c5924c963
         },
         r0a1: u288 {
-            limb0: 0xb23e119e29446d020488e6a2,
-            limb1: 0x9282b65a4f4e10e92ff0edb3,
-            limb2: 0x528d56f7a5f7dc0
+            limb0: 0xa1ae9d58780a43d37b77e263,
+            limb1: 0x121b29334beef584c70603f6,
+            limb2: 0x1e8077c5bf941321
         },
         r1a0: u288 {
-            limb0: 0xdbc98b55f5a0911c205dd688,
-            limb1: 0x551b32b34e518911cb1404a1,
-            limb2: 0x21489f84a4be105
+            limb0: 0xa31456d7e377b0415c5b4af7,
+            limb1: 0x4cad8fe756c67b06ba6ca845,
+            limb2: 0x12b0c33c133e8539
         },
         r1a1: u288 {
-            limb0: 0x12c838401289a0ceee3d5b05,
-            limb1: 0x90e86f0c84fe2ebe0ce136e3,
-            limb2: 0x28053091cd760ea8
+            limb0: 0x1a12655e7d2d066320616f44,
+            limb1: 0x3b33789a304da543aa70aa88,
+            limb2: 0xf775c7d488d1b78
         }
     },
     G2Line {
@@ -2661,24 +2661,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xceaba6eba3c3c523d605bf00,
-            limb1: 0xcf9b5673feec4cc93d3e1fb9,
-            limb2: 0x9f789a6d44e500d
+            limb0: 0x9faba58e17ed282f0b9bab79,
+            limb1: 0x6b033b55218ed934192f7c5e,
+            limb2: 0x19804942e4002f05
         },
         r0a1: u288 {
-            limb0: 0xe393b951f30f48a1487446ab,
-            limb1: 0xfb3a93e95637990834025fe1,
-            limb2: 0x1d10992027799582
+            limb0: 0xf6939cc3a124c0eb0b2b6cb9,
+            limb1: 0x6ec5b32153ceb794b4b65603,
+            limb2: 0x2527e3e51805a2b8
         },
         r1a0: u288 {
-            limb0: 0x8c6ce6721be8b31495bb0cf7,
-            limb1: 0x280f1c5c445ed5e442afb989,
-            limb2: 0xe94c760bfcd69a7
+            limb0: 0xf096b2b0fd47a067da2e2fa1,
+            limb1: 0xf8ccd23fe95ee6b21ddd625f,
+            limb2: 0x364e4bc08859f2b
         },
         r1a1: u288 {
-            limb0: 0xa62ae21a93504edcbf46443f,
-            limb1: 0xeb016f79c244124dc2a21a8d,
-            limb2: 0x1d08c18c83d270d3
+            limb0: 0x171ee2896524482db2c9cd3b,
+            limb1: 0x921acd263619070bcae1a5d1,
+            limb2: 0xab5a4eda63f5d9e
         }
     },
     G2Line {
@@ -2705,24 +2705,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xa9263d725063f3c3aa9e64a0,
-            limb1: 0x966e0b6edfbe3d8970f8f980,
-            limb2: 0x20c459a1ecf022d0
+            limb0: 0x156b69bb32df86e87a0e920b,
+            limb1: 0xd378c7005c5b0a57efe739e5,
+            limb2: 0x2692056282ac54f2
         },
         r0a1: u288 {
-            limb0: 0x55875c1bd4246f3e6922f2cb,
-            limb1: 0x63af3f28e5e8ac128f35ef6f,
-            limb2: 0x19e76bd1c61d567c
+            limb0: 0xbde3622502050a8f2579023b,
+            limb1: 0x41129220fb5481333165a08b,
+            limb2: 0x2deceffdb8fe0b55
         },
         r1a0: u288 {
-            limb0: 0x681b5c81429e1844b742e4c4,
-            limb1: 0xffdf6a03798dc38ff2f70f49,
-            limb2: 0x28969b9412fe5524
+            limb0: 0xb17fe4cbcdb23a5b7dc3ec74,
+            limb1: 0x64eb9e87d10350cbde4e4442,
+            limb2: 0x5ef4a8c607c94d8
         },
         r1a1: u288 {
-            limb0: 0x580acba66cbdaeab4395c296,
-            limb1: 0xe244e2adea4896cc17a29e7f,
-            limb2: 0x27c6308dc3cb2ae7
+            limb0: 0xea4581627c149f28f5ef5121,
+            limb1: 0xe58acd24729af91f5aaf58fc,
+            limb2: 0x25a733ba2bd2e1d9
         }
     },
     G2Line {
@@ -2749,24 +2749,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x7688b9ffb8482e8834ab07e5,
-            limb1: 0x190660e34d0a0372098dd7f8,
-            limb2: 0x3926141fc1c03ca
+            limb0: 0xa055cbdd96221e6c937055ca,
+            limb1: 0x928fee1ed29d522b1f681b47,
+            limb2: 0x20aa8245f6a8e26e
         },
         r0a1: u288 {
-            limb0: 0x7169cdcd552ce5e3f8f677d7,
-            limb1: 0x8a34f69d7c443813b47287c8,
-            limb2: 0xef5e939d6df4dd6
+            limb0: 0xdc1f04744fcb9fb84c79cc8,
+            limb1: 0x270784fc30bf38a69dc44a39,
+            limb2: 0xf83cbf07ca21de8
         },
         r1a0: u288 {
-            limb0: 0x96861ec809897eb982dd6e85,
-            limb1: 0xd571eaef1fb874dba6633ca5,
-            limb2: 0xa59931b47893b6d
+            limb0: 0x4ab6c9d2cd215da722c1898b,
+            limb1: 0xb01197c098286121993f3c1,
+            limb2: 0x27f339235d508690
         },
         r1a1: u288 {
-            limb0: 0xba5d3a95aa7f6aeca549daa3,
-            limb1: 0x111217aad32e4d0c6ec57e6d,
-            limb2: 0x2acbc0cffe4b17cc
+            limb0: 0xcfb55466efbc7952805eb759,
+            limb1: 0x354a0a906801f10ea73cb090,
+            limb2: 0x7be6ae09c7d1984
         }
     },
     G2Line {
@@ -2815,46 +2815,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x964cc12b0753c8395ba4a44c,
-            limb1: 0xace34abca7c0702d638bc1dd,
-            limb2: 0x1a1f1fac521c4b72
+            limb0: 0x178b4c39a4798b67d2d4b357,
+            limb1: 0xcf0a0070bf04455282c824ad,
+            limb2: 0x269b08555d49e85f
         },
         r0a1: u288 {
-            limb0: 0xc504cb7bf660e437b6ae4f24,
-            limb1: 0x10da80460377375ca47f819b,
-            limb2: 0x2a354aefe22bc8a1
+            limb0: 0x434df37f0989810de42e69d4,
+            limb1: 0xe6c365902870ae6a47dfc913,
+            limb2: 0x1cb968bfdd2eb178
         },
         r1a0: u288 {
-            limb0: 0xaeefd51a0af9eac7fc30d753,
-            limb1: 0x41ace612c52503c13be4f43,
-            limb2: 0x2382562a5b83f16d
+            limb0: 0xba51af51dde62be52fa3ee9c,
+            limb1: 0x23ea0318942225df28483566,
+            limb2: 0x281abbe51a2b8d6a
         },
         r1a1: u288 {
-            limb0: 0x5a946da393c4c804561ea87c,
-            limb1: 0xe5e02609d59e31019ee4069a,
-            limb2: 0x1ac484352c68c660
+            limb0: 0x4f616ddaaad10f00cd3e670c,
+            limb1: 0xefe9bd0fbd51a0954da99b3,
+            limb2: 0x2aac94bab0f3361b
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xad173502f77a04ee745223b0,
-            limb1: 0xa810be7eabedd13d9d9726a6,
-            limb2: 0xd18865e2947b711
+            limb0: 0x26fe725c5cdfeef17fb4169e,
+            limb1: 0xab207d0adf078e7e759b7154,
+            limb2: 0x1be7e6c3dfd1ba4c
         },
         r0a1: u288 {
-            limb0: 0xcbedee1281501b358197560,
-            limb1: 0xc25073fbb1a36bacc847e7e0,
-            limb2: 0x8eea9e25befc64
+            limb0: 0xdfc83985eae0c5f96c9cea56,
+            limb1: 0xda24f5f45a66a4f3458a6225,
+            limb2: 0x18b153d0a2532a0f
         },
         r1a0: u288 {
-            limb0: 0xb6f5e21b9492572fa5ff1534,
-            limb1: 0x936a1432b6d8f5bfa6ab06c,
-            limb2: 0x15ff18e4a72ead9d
+            limb0: 0xd5ac30d0b13b8b48a5992f5e,
+            limb1: 0xad8f6789a5a69bb5a50725b3,
+            limb2: 0x149f48ff2490dc32
         },
         r1a1: u288 {
-            limb0: 0xa780086e6be10f7aa73cff4a,
-            limb1: 0xc7b1390ba7d0e6cd1b56cb95,
-            limb2: 0x16ecfab84607102a
+            limb0: 0xe2f0c0df009a40bc4e13b367,
+            limb1: 0xaf5be8018060b82d9fbb422f,
+            limb2: 0x7af5b3100c43712
         }
     },
     G2Line {
@@ -2881,24 +2881,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xcabae877ceb49843823221d8,
-            limb1: 0x97442434d4da59bd4fa4475d,
-            limb2: 0x2b3a30a1d1231d32
+            limb0: 0xf329c667936a7395a92f7d44,
+            limb1: 0x3c8591e27437f6964911f6d1,
+            limb2: 0xadadb4523330a2e
         },
         r0a1: u288 {
-            limb0: 0x43acd9986d5837756dbd1f3,
-            limb1: 0x3a7e81bf9d952693714b175b,
-            limb2: 0x9ece841d0635aed
+            limb0: 0xff41d677b7411cee8cba18d7,
+            limb1: 0x8dd44d4112f72b4624827fa3,
+            limb2: 0x1b2775275d9d13bd
         },
         r1a0: u288 {
-            limb0: 0x7e99aa4ea41908c7377bc296,
-            limb1: 0x2d3ca572ad8bd8144c0e7078,
-            limb2: 0x20a8e553a9962117
+            limb0: 0x9ab1e9e36f6903153effcb5d,
+            limb1: 0x4f0ef7f26570c4664b784bfb,
+            limb2: 0x1cf94d891879c5f7
         },
         r1a1: u288 {
-            limb0: 0xc15aabefaf4ffb2945b88eef,
-            limb1: 0x37b1ab7c8bddb735ca43d861,
-            limb2: 0x10a06ac02aed2982
+            limb0: 0xe9c1112e4a31df2d76ac5467,
+            limb1: 0x534330cd0a9a462979d15e17,
+            limb2: 0x102c10ea372798ef
         }
     },
     G2Line {
@@ -2947,46 +2947,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x2c7bd7e9f85c477c44b39ec3,
-            limb1: 0x63a4d52fdc8ee3a2c646da02,
-            limb2: 0x247c604f75a608f3
+            limb0: 0xe5930f6f292dc86469f23c3f,
+            limb1: 0x625998bb5674d62eaac7bdd6,
+            limb2: 0x28915e40e2de2176
         },
         r0a1: u288 {
-            limb0: 0x3fef3b6bcd2ee683dff71d8f,
-            limb1: 0x82dc3089637aa385f9e8d637,
-            limb2: 0x1b8712eaca404a9a
+            limb0: 0xe088f0d8fb453e6dcc0590a4,
+            limb1: 0xcea3db20ce5eb1e3038897f7,
+            limb2: 0x36be5f76e20247e
         },
         r1a0: u288 {
-            limb0: 0x7286bfe052b5c1f5bd84d288,
-            limb1: 0x16018090bb0eea9030f16e67,
-            limb2: 0x10d3b622c2fbcb3
+            limb0: 0x848b194340e93258a8815380,
+            limb1: 0x94b574245c4ded397af6261e,
+            limb2: 0x2e61cfe39cc8cb26
         },
         r1a1: u288 {
-            limb0: 0x7cd087e48f854210d41f538b,
-            limb1: 0x37ea289505104eda4c8e8f37,
-            limb2: 0x23acfe2441c7336f
+            limb0: 0x56d02d5b021948ebf70d26a6,
+            limb1: 0x9aa43c6005e1f869f1e77a62,
+            limb2: 0xe938bfe02b12734
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xd1db240d35aff0a307be54f7,
-            limb1: 0xa21909cf09411a4d58b0e6c4,
-            limb2: 0x2934d1c5db210f06
+            limb0: 0x5b73b6cf7cd7683f3f41c9a6,
+            limb1: 0x69de030fa2cf400339cf55f7,
+            limb2: 0x4f70ef50241f040
         },
         r0a1: u288 {
-            limb0: 0x556d053a0977cacf38b7de3,
-            limb1: 0x2d6b49b24e07d12f3db4863f,
-            limb2: 0x2728b3842ff5a671
+            limb0: 0xa816af8c0385a391e5b386a,
+            limb1: 0xeacaa8959c19a590466fd885,
+            limb2: 0x1ecd36584f4d07ee
         },
         r1a0: u288 {
-            limb0: 0x85f8d516a3d400d70109dd22,
-            limb1: 0xf61c60ac030a9d6587492582,
-            limb2: 0x305e9fa4a8a19980
+            limb0: 0xec81b1f90e5d21822a6b7926,
+            limb1: 0x445d2cb53c7d45a6f8d9039b,
+            limb2: 0x1f5fa4eef5b4f914
         },
         r1a1: u288 {
-            limb0: 0xc40d29ab5a7b79fbeb87c2d5,
-            limb1: 0xa83bfd513fbf8e80255da069,
-            limb2: 0x162ac55ed2d87d45
+            limb0: 0x5c79646032d6751320c8988c,
+            limb1: 0x765101dfa36ee9291ff64909,
+            limb2: 0x3025a3abf6457069
         }
     },
     G2Line {
@@ -3013,24 +3013,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xbbba8f742f16215df538e83,
-            limb1: 0x792a3fda7f74a1d89460ae35,
-            limb2: 0x179c4d76a2afd537
+            limb0: 0x3d6c542b2cecdfecc19fc129,
+            limb1: 0x5ffcce00a8410129cd9aa520,
+            limb2: 0xdc9d86249c03466
         },
         r0a1: u288 {
-            limb0: 0x4f33b718be412993c850e4ab,
-            limb1: 0x9000e6a4aa4af0e401d6724c,
-            limb2: 0x1ed9afe88d5d18f1
+            limb0: 0x66b71c4f4ccd9b962da09cb1,
+            limb1: 0x6b187b46650b6f0d29d0f392,
+            limb2: 0x157647d447e4b070
         },
         r1a0: u288 {
-            limb0: 0xba3ddef627bf36e1ff9eb056,
-            limb1: 0xc262ce4105f82e7a2835afc8,
-            limb2: 0x3dc61c8780fb1aa
+            limb0: 0xff03ef54a985402197676123,
+            limb1: 0x5b310180ccb2a56fbe8f72d4,
+            limb2: 0x2321af1e1ea8bda4
         },
         r1a1: u288 {
-            limb0: 0x3f8facf0fd83a0f6ddc32c79,
-            limb1: 0x26407ad20eeed9d777a331d9,
-            limb2: 0xae683ab18b96dd8
+            limb0: 0xf9974c6f2d6a8b31309758e0,
+            limb1: 0xf5b02559444ad50b3a9fe300,
+            limb2: 0x2d513052aa084d71
         }
     },
     G2Line {
@@ -3057,24 +3057,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x8bf00401765eec499df8819c,
-            limb1: 0xf92957722538fc6bcbb02cfa,
-            limb2: 0x2052c3cfc54870ca
+            limb0: 0x702ff92e1e906f180066412f,
+            limb1: 0xa75be7059ea97dd0adf8dd88,
+            limb2: 0x28f9a28b43b6d0dd
         },
         r0a1: u288 {
-            limb0: 0xb3f72713e405bd4b00d0688e,
-            limb1: 0xddb0a5adf95b53f2ad1ad782,
-            limb2: 0x5d9946561bf5f38
+            limb0: 0x1de3709835c7119120fa821f,
+            limb1: 0x9363b158f7286127e7848cd8,
+            limb2: 0x181c16604adc1bb3
         },
         r1a0: u288 {
-            limb0: 0x81e3f965ba01c1eab38a2db2,
-            limb1: 0x1140bc882617dc437728175d,
-            limb2: 0x2c5e97bef5e55e1b
+            limb0: 0xee4f06346883a87886bf0466,
+            limb1: 0x837729c41cb6ba689a5bdbf6,
+            limb2: 0x26bdd554865847d8
         },
         r1a1: u288 {
-            limb0: 0x3b96e794666d8dcce5eb212c,
-            limb1: 0xd9a558607186930bea0bb903,
-            limb2: 0x1468df4e094e9dda
+            limb0: 0xd86b4264e5e20fa163d332b0,
+            limb1: 0x7f586eec415563db0c40d1ab,
+            limb2: 0x5d73bfb175f8afa
         }
     },
     G2Line {
@@ -3123,46 +3123,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xcccf88889420daa432c6ed14,
-            limb1: 0xf87a645b0411a3347219fcab,
-            limb2: 0x9e40611b8fb42f7
+            limb0: 0x2cdddae4c7338fadc850931d,
+            limb1: 0x3fa73c2530c65d4c400b5dd4,
+            limb2: 0x1dc1c3ecb3aaaee9
         },
         r0a1: u288 {
-            limb0: 0xc9f0f6db5e450ced5d7209ba,
-            limb1: 0x9334ac190034c1bbe1b8374b,
-            limb2: 0x5a1866ccbed9ab7
+            limb0: 0x7c7c0128a55011e2a4c16fe7,
+            limb1: 0x74c8d2a91147dc15ecffb8a3,
+            limb2: 0x95c1bc1871b247
         },
         r1a0: u288 {
-            limb0: 0xa5389acdb57e7555f1be142c,
-            limb1: 0x9f3875515436605abbfea861,
-            limb2: 0x1ddd3037cca05717
+            limb0: 0xba7812670f60ce90512ad3b6,
+            limb1: 0xd6732fa8c07b87556061f35d,
+            limb2: 0x1ce7a730387994ec
         },
         r1a1: u288 {
-            limb0: 0x92ef691baab82fe6e38eed1a,
-            limb1: 0xb6064347ff701be35beb2fd6,
-            limb2: 0xa21de7063a554b1
+            limb0: 0xc4d7bc088949330857626cba,
+            limb1: 0x419505832df1fe7c2f99fabf,
+            limb2: 0x5ba34eb320f7a26
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x6e19ddcdf4cd30fd07ff2e6c,
-            limb1: 0xfb80a2e0d36f4867c581175f,
-            limb2: 0x1f656efd090df607
+            limb0: 0xa41ded271af0ad3c8659530a,
+            limb1: 0xbd6971c95890c8e57f937317,
+            limb2: 0x2457fa0b779260f3
         },
         r0a1: u288 {
-            limb0: 0xea675e40e53665395f094c20,
-            limb1: 0x9f1864b63c74953cc44013ab,
-            limb2: 0x34f2c6cd07ce9
+            limb0: 0xfa2506358e0340c91b66a961,
+            limb1: 0x4010f32875766895e841a271,
+            limb2: 0x2099bde019c1dd6
         },
         r1a0: u288 {
-            limb0: 0xd4ee30d43c8b1e4ade99f22c,
-            limb1: 0xb3f75084f4176c137e7519f,
-            limb2: 0x28ab2c13837bdd28
+            limb0: 0x619827380e16f0473e86a416,
+            limb1: 0x290f5491e1fdf309e8850370,
+            limb2: 0x5f63063ba33cd4a
         },
         r1a1: u288 {
-            limb0: 0x7bc40c023a4f91263dc48830,
-            limb1: 0xc61b394f68082645f0bc497f,
-            limb2: 0x2a7bfddd26c2275a
+            limb0: 0x12454f4de3777f078de5f74c,
+            limb1: 0xd7f5a88f54f41c6e4a23e861,
+            limb2: 0x109ab2c1cdcc6bd9
         }
     },
     G2Line {
@@ -3189,24 +3189,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xd1c4553ebf71057ae09ed1b9,
-            limb1: 0x6fc7077db3189c05371f0688,
-            limb2: 0x29255dbc7f7c0d4d
+            limb0: 0x2fc26e6c931d894b35d24488,
+            limb1: 0x7ad55fa679622c291774c9ab,
+            limb2: 0x1886278132375399
         },
         r0a1: u288 {
-            limb0: 0x347ebb6041d6eb8cd08e9f2a,
-            limb1: 0xcd9ce42b8ca992dad3f6750e,
-            limb2: 0xf914c01b8055a0f
+            limb0: 0xccee4e54ac680184520fa71e,
+            limb1: 0xb8368bb7a3fad57554ad6ef4,
+            limb2: 0x4003cb2c6a4b534
         },
         r1a0: u288 {
-            limb0: 0x9acc7653f0bf568ccee3076a,
-            limb1: 0x187bb6ce14c6465a81f79c1,
-            limb2: 0x2803f27dbfd3ef44
+            limb0: 0x5101f8e2bdfeba1d6dd1c7a9,
+            limb1: 0xc6a1a8940610ef480b07a96c,
+            limb2: 0x12d4297ab16a5759
         },
         r1a1: u288 {
-            limb0: 0x5cb37f8cb7383b4afd0e01e4,
-            limb1: 0x42c81e35b9081c5250e06843,
-            limb2: 0x19f57a55bfbaa85b
+            limb0: 0xc08bd8c35f127f29bff10687,
+            limb1: 0x51cd324864fecaa89c2ef781,
+            limb2: 0x28e9d7cc4b11847a
         }
     },
     G2Line {
@@ -3233,24 +3233,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x4bd658137d7f8e1da2b91f8f,
-            limb1: 0xdb98711f21d371197c6383c1,
-            limb2: 0xbd1a7955b3e9a36
+            limb0: 0xa3904562b69eecfe9508912,
+            limb1: 0x96526e96a407cadcf96077a0,
+            limb2: 0x468bbd4e4f749b1
         },
         r0a1: u288 {
-            limb0: 0xa37cb9f19a63e7f00c8a32a6,
-            limb1: 0x512ed5ca1a45d6aebb33471f,
-            limb2: 0x9db0f1b2542ebfb
+            limb0: 0xba116433f12f35772b83eeb7,
+            limb1: 0x9dcb00270910359c3c5a735d,
+            limb2: 0x2098ef02dee77f51
         },
         r1a0: u288 {
-            limb0: 0x8166989270722a706432d248,
-            limb1: 0x74a8d781f0dbb6e11b7a20ac,
-            limb2: 0xf121781365bfb04
+            limb0: 0x58de316bd14e32785a02e2e0,
+            limb1: 0xbfa25953c24a31e0d92ae326,
+            limb2: 0x1b0ae1a933f159e4
         },
         r1a1: u288 {
-            limb0: 0xb9b2885b7d6eae707a78867a,
-            limb1: 0x1d5adb41bb60aeb6e08139d2,
-            limb2: 0x2c29b4b1af311910
+            limb0: 0xa41db0def8ebb255e069664e,
+            limb1: 0x8a4310229896c6b887982f18,
+            limb2: 0x1a5b197ae245f9d2
         }
     },
     G2Line {
@@ -3277,24 +3277,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xb0be5b0e0dd3192a03325f76,
-            limb1: 0x7bc7afb1fecd0cb3991d7353,
-            limb2: 0x1a97b094c10a80d3
+            limb0: 0x1de216bf04282478f9e050e2,
+            limb1: 0x8b33c4659ec776df94a1c6a4,
+            limb2: 0x175fba4a05f72bc3
         },
         r0a1: u288 {
-            limb0: 0xeda8dbda51fcd609a03f228f,
-            limb1: 0x1f98d50090e5a087b3f0b0ca,
-            limb2: 0x283491538eb8d3be
+            limb0: 0x28652d07ce949e0e5a0d9b08,
+            limb1: 0x534f8169d76e523ea0decd9a,
+            limb2: 0x28350ce45a970e72
         },
         r1a0: u288 {
-            limb0: 0xf715d520e9cfd82d595eed39,
-            limb1: 0x14188d794640da1e319a9ac1,
-            limb2: 0x1d860e9bfe81b7e3
+            limb0: 0x2c2b82141fa810a4722009a2,
+            limb1: 0x8f980a4943b4a9075ef4872a,
+            limb2: 0x1dd2411520f786e1
         },
         r1a1: u288 {
-            limb0: 0x7663baeb336338fee1e228bf,
-            limb1: 0xc327bc111c2a7eb81bfa6b8a,
-            limb2: 0x6e85391468710db
+            limb0: 0x84a64353ea05b2f71bc73ba8,
+            limb1: 0x7fa5c10fcdd5f89d383c8c,
+            limb2: 0x20af170fafcbc0d6
         }
     },
     G2Line {
@@ -3343,46 +3343,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x5d6e9c0af89acc7084648cb,
-            limb1: 0x2e9dbf7b3fb93560bdbaa16d,
-            limb2: 0x1fc0bd4613a4fe62
+            limb0: 0x848e5927d5586c55d410dd61,
+            limb1: 0xf424de27203ef578707f536f,
+            limb2: 0x2cd34f401fc9952c
         },
         r0a1: u288 {
-            limb0: 0xb7f39c4b29d632ee51356795,
-            limb1: 0x8dec8011440f0e719f7b199b,
-            limb2: 0x2c032f1ecbd262e7
+            limb0: 0x2f287df77ab6fcd55686940e,
+            limb1: 0x440859d2b857455be3f773a5,
+            limb2: 0x271b0aa93a13ecdc
         },
         r1a0: u288 {
-            limb0: 0x66c276e07ac2fe97234ac4bd,
-            limb1: 0xc5606f25c195da2351521c1b,
-            limb2: 0x259df2ced7bb8f78
+            limb0: 0xb4fd93e00cdf47d5e230d8b5,
+            limb1: 0x397302436ce179129ccadc9a,
+            limb2: 0x18be859a650bcd06
         },
         r1a1: u288 {
-            limb0: 0xcbd55c9d7ff1bbbfe9a1259e,
-            limb1: 0x8ab48a794413b6f3c0e3052c,
-            limb2: 0x20935bfdb27a6930
+            limb0: 0xe46abd89ee010eee897a775b,
+            limb1: 0xa52e37d8f89eeefe05f04db5,
+            limb2: 0x23dedce27ac4fe96
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x81722a8061c3e9c8d03a3234,
-            limb1: 0x95de24a2cffcb9a74c57ab2,
-            limb2: 0xb89a385bf06b8e0
+            limb0: 0xb2800c9836a2b7d8e6d7093e,
+            limb1: 0xc28e7847f73ea099846532ec,
+            limb2: 0x2abf32ec2a3e959c
         },
         r0a1: u288 {
-            limb0: 0x87d9947a901788a4189be82b,
-            limb1: 0xed401741791c906b4414927e,
-            limb2: 0xbb5827cf831b8cf
+            limb0: 0x4a491e7fa4e0f360c1475164,
+            limb1: 0x84551cf8a4a6ee0ab5f3527d,
+            limb2: 0x2a2ad891a38f92de
         },
         r1a0: u288 {
-            limb0: 0x85ee54ff5607bd9930d0dcd0,
-            limb1: 0x1ae20b4ee535b94a8801c367,
-            limb2: 0x1eaa77e50d5b5c3
+            limb0: 0x6bfc15d7df16a638cc99ee33,
+            limb1: 0xa856c902e9fc9b7dc3604e78,
+            limb2: 0x2589e61777fcd6c6
         },
         r1a1: u288 {
-            limb0: 0x7084f642707a6d5ff90bbf85,
-            limb1: 0x8af602f0a7df7975c0dc6ef1,
-            limb2: 0x2b90c3f6a3c9e6b4
+            limb0: 0xaa3e39c0449e3dd0c3bc25cd,
+            limb1: 0xf7ae67f25ffc9cb43c0349a0,
+            limb2: 0x11748e382d4ee0a0
         }
     },
     G2Line {
@@ -3409,24 +3409,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x67b3038f857b83e95c24b547,
-            limb1: 0x580f1c13e745486c78430d74,
-            limb2: 0x156ea50aa2cc892e
+            limb0: 0xbade7c24627d71f0bbaed5f5,
+            limb1: 0x9147a0de7fe506aecd387e64,
+            limb2: 0x15117f1c7536d2f1
         },
         r0a1: u288 {
-            limb0: 0x7e8933828aadcd568c1db57e,
-            limb1: 0x7bdbe09e60254e6b336f1860,
-            limb2: 0x172c4a9dbc328e73
+            limb0: 0x6c36357b19d47d9dcf66b991,
+            limb1: 0xbe4a3e905d9af358fb17783b,
+            limb2: 0x2a3fd0e7f2ac6477
         },
         r1a0: u288 {
-            limb0: 0xcb6d02b26adaf1edceed556d,
-            limb1: 0x542dadb196b8918700bc22b3,
-            limb2: 0x29f2d63f604cac22
+            limb0: 0x2e0de9823152f6dfa3cebead,
+            limb1: 0x7ba4738acce30c09af0c1a,
+            limb2: 0x2d7250df38c1fc41
         },
         r1a1: u288 {
-            limb0: 0xee9d01bd639ce65d86846971,
-            limb1: 0xcc469bf39768cc408b96ada3,
-            limb2: 0xdb4639c82c64da6
+            limb0: 0x56535f27281e10c694c95d4b,
+            limb1: 0xa5deb1f1aa78685a4c7caa45,
+            limb2: 0x25e922107d79f1ec
         }
     },
     G2Line {
@@ -3453,24 +3453,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xf813de8236d1d2f6f6fc3601,
-            limb1: 0xecaaa9e6c42dbadd0f2c4ca9,
-            limb2: 0x57be99172e7db96
+            limb0: 0xc092e5bdd0ab520e198517ba,
+            limb1: 0xa06a49126e42a1d3cd733cb8,
+            limb2: 0x287d8c0f8319f0d2
         },
         r0a1: u288 {
-            limb0: 0x1d3ed07ba199a76e1bbcb692,
-            limb1: 0x2c83860a4e01572692901441,
-            limb2: 0x10e7f6155719843
+            limb0: 0x63962b3ea1f1328c8d88c5d3,
+            limb1: 0x9983c6655555de49b2d4747f,
+            limb2: 0x179978ba7d83297c
         },
         r1a0: u288 {
-            limb0: 0x43006ba7e96f0311bb8d87be,
-            limb1: 0xf21b68b78ba86791834159c5,
-            limb2: 0x2eb6572013f32fce
+            limb0: 0x51201682e7f22df92d192d72,
+            limb1: 0x770cffa99e0de06bdf1ead24,
+            limb2: 0x1c0a92fd27050da3
         },
         r1a1: u288 {
-            limb0: 0xff8c0ced996879f941786250,
-            limb1: 0xf239bca67b2f4c81fde729a2,
-            limb2: 0x11502f8d446cb5e0
+            limb0: 0x1485f0355d1b4c18c4ebb90f,
+            limb1: 0x783701093db87d24c38a224f,
+            limb2: 0x5892fc92a7ef3ab
         }
     },
     G2Line {
@@ -3497,24 +3497,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x88169b015c47ba7ed5ef707c,
-            limb1: 0x42510d4cb0942b290af823d5,
-            limb2: 0x1a5873f6862b35dc
+            limb0: 0xfc911fa07bb859b3d8b3eb4f,
+            limb1: 0xb3c98b42ebe4925bec9ac193,
+            limb2: 0x1df4838e00c96667
         },
         r0a1: u288 {
-            limb0: 0xb3847a8f448eeb4093e92f83,
-            limb1: 0x8714f3e1d11f2abaf4d93a0c,
-            limb2: 0x1ddb04fb6b1ef313
+            limb0: 0xd50e2ebce4c4280865c1139e,
+            limb1: 0xe210cef7ed22d905c4e9701c,
+            limb2: 0x1efff304c525017e
         },
         r1a0: u288 {
-            limb0: 0x47ffd000bb166ffcd398e205,
-            limb1: 0x9a05994b6501d55b1b9e4e77,
-            limb2: 0x116336fbf20da7d1
+            limb0: 0x7af96aa140dc7a09898f26a0,
+            limb1: 0xf149e9578b04f72951ad33e6,
+            limb2: 0x511e5494a82904c
         },
         r1a1: u288 {
-            limb0: 0x54048df92f2724dd6f9c0a44,
-            limb1: 0x73aaf819cfe4d838a8599b11,
-            limb2: 0x213741db1b8139b0
+            limb0: 0xd5cc52d98eb02764a83054c,
+            limb1: 0x1765cc2ebf646ccb7ba2b502,
+            limb2: 0x16822b3c6728fdb5
         }
     },
     G2Line {
@@ -3563,46 +3563,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xcc28109761859885ddeac06,
-            limb1: 0x3b00239f865d0675403031a6,
-            limb2: 0x1f5cef47190ffcb1
+            limb0: 0x1daede765629a5142a0ce4b2,
+            limb1: 0x2e20393a71d99c01f10bed46,
+            limb2: 0x296f3b00c6041669
         },
         r0a1: u288 {
-            limb0: 0xf528c4aefb527cf5d5cfcf6a,
-            limb1: 0xcf85c23c04b1684ba90c0329,
-            limb2: 0x2766b1f16372725f
+            limb0: 0xce1f6b3d92902a376c094faa,
+            limb1: 0xa1b30825f50a3d06fe2d3dd3,
+            limb2: 0xed0cab5a9e1a06d
         },
         r1a0: u288 {
-            limb0: 0xe4e5c9cab3896a46d904a18d,
-            limb1: 0x5a6ad6caa39ccac987c9b26e,
-            limb2: 0x1f49451c2e11fb81
+            limb0: 0x2f0a1a9c93f9ce569593c13e,
+            limb1: 0x73696d82dfd1c5f9884cb12c,
+            limb2: 0x3b7ede8e494cd38
         },
         r1a1: u288 {
-            limb0: 0x9ab3b198e310ebf748e818c2,
-            limb1: 0x5b89337dd19d50e7d01aa8d8,
-            limb2: 0xa0659585b2519c2
+            limb0: 0xe94069d43d8b1e3153e1373f,
+            limb1: 0xbfb747f1047eafc473fde0cd,
+            limb2: 0x1f1de8f8e6b1bb2b
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xb20f0bc6f42873373f413003,
-            limb1: 0x35d06102cd8d3cbed27ef607,
-            limb2: 0x2ab9ee710fc4369a
+            limb0: 0xd5cd6a2f1dafcef67562748f,
+            limb1: 0x348c995938a8462cb6491143,
+            limb2: 0x40c21698b72de26
         },
         r0a1: u288 {
-            limb0: 0xfc31045488d658485d6fef4a,
-            limb1: 0x53f64690c3825aa546742661,
-            limb2: 0x21160e6f312a4c1e
+            limb0: 0x2feb5037946c7b696b5c90d9,
+            limb1: 0xd727b33410d3527aec751c2b,
+            limb2: 0x1b47aa52207fc428
         },
         r1a0: u288 {
-            limb0: 0x750b1a6755d8c192b71cc8cc,
-            limb1: 0x6fcf2254c77febb3f9134c54,
-            limb2: 0x238c5fd79fd000cb
+            limb0: 0x9986e165d3b53d3cd9c78a0d,
+            limb1: 0xe5c7603208a4a2284233c8f3,
+            limb2: 0x8de6016e0c9bc06
         },
         r1a1: u288 {
-            limb0: 0x64862df8115c455c14c79b99,
-            limb1: 0x491b7457fc489d1baa190482,
-            limb2: 0x2ca447a699a6996b
+            limb0: 0xddf5b21afda308f44b0feb1c,
+            limb1: 0xe094f48c61a39a6803df6f12,
+            limb2: 0xab17a4c5eb3cf72
         }
     },
     G2Line {
@@ -3629,24 +3629,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xca5851ad46398b690aa01931,
-            limb1: 0x81e5055d354295a01f27dcba,
-            limb2: 0x1c4f9b616b308f22
+            limb0: 0xde51af62a2b17a2c65048477,
+            limb1: 0x4ee64a31a6935c2fc602058b,
+            limb2: 0x4b060528142bd4c
         },
         r0a1: u288 {
-            limb0: 0x295463320be632f99d4dc6c5,
-            limb1: 0xb1011ea04da611c784dd3935,
-            limb2: 0x1c811a3455dd6828
+            limb0: 0x283152a5a875e56d8c4b3609,
+            limb1: 0x25345b81ca81a976c1ffa00c,
+            limb2: 0x115ab5bcffd6676b
         },
         r1a0: u288 {
-            limb0: 0x475839bdcea822c58cbc7b22,
-            limb1: 0xb7ab2d68ef6778536923f1fe,
-            limb2: 0x21de911d19ffd24c
+            limb0: 0x42cc559d853a8ba911785523,
+            limb1: 0x244083884efc807e255904a4,
+            limb2: 0x12ecc3061ff75be6
         },
         r1a1: u288 {
-            limb0: 0xd46de25ede431d92340d8edc,
-            limb1: 0x88bc07935b83b808d11416e5,
-            limb2: 0x1c42837b12cf1e00
+            limb0: 0x9e342e101d9f4e650a2a2a56,
+            limb1: 0x9fc6ae6f3872cd22d340d36b,
+            limb2: 0x2183bf699632c161
         }
     },
     G2Line {
@@ -3695,46 +3695,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x1e9b8708f932b3b3852b930,
-            limb1: 0xaeef82d11aefe88d2a0d8f52,
-            limb2: 0x12a553c2bb356cc9
+            limb0: 0x5211e5184ec574e85fb203a2,
+            limb1: 0xdc8ccf37592526d7acf382ef,
+            limb2: 0x14417c15e547d9d8
         },
         r0a1: u288 {
-            limb0: 0x27ce22aa349f437f97e7e26b,
-            limb1: 0xa3955e15638ef88d74ffe540,
-            limb2: 0x1331b4ca283b71b4
+            limb0: 0x85597d178d6df54c803e271a,
+            limb1: 0xddc46bf776429357d905d06e,
+            limb2: 0x1b6d01d91f11f38f
         },
         r1a0: u288 {
-            limb0: 0xbc3e7d2e42f5d86e6c13a0a6,
-            limb1: 0xc9ed753baec06be4fc492295,
-            limb2: 0xbabc359fd486d0d
+            limb0: 0x85ca905d18585aaf6c609663,
+            limb1: 0xb236fcf94b2f3b03f366a675,
+            limb2: 0x2ee06f34805e61f7
         },
         r1a1: u288 {
-            limb0: 0x4f141e7d8a4dfe4924f5d13d,
-            limb1: 0x74dd6aed0f50aaf2458c5b80,
-            limb2: 0x25d0924deaf145b9
+            limb0: 0xfc593e61dd73e908c99ce33b,
+            limb1: 0xbe4a8ae2843183dfd7c48448,
+            limb2: 0x15172bd67b75b958
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xdbd03d8b6c68b90aa1f13fd,
-            limb1: 0x60ed1ac076375c6b734ef291,
-            limb2: 0x26bc676fdf62555d
+            limb0: 0xef656a909f25c6a1966c0a1f,
+            limb1: 0x980aa97fd53f1183c9f768de,
+            limb2: 0x121a5bdbd9e6bbd9
         },
         r0a1: u288 {
-            limb0: 0x162e633453efe585d2f8d4c4,
-            limb1: 0x48ffeb873908ba85ad627037,
-            limb2: 0xed87a94362d440a
+            limb0: 0xf3c09dcb190dcd32f20d4c29,
+            limb1: 0x8401b2a3eb31d982ac04fdbb,
+            limb2: 0x1ea376b3dc19be4a
         },
         r1a0: u288 {
-            limb0: 0x9904bd170e169f1b3ec05433,
-            limb1: 0x5a012b1160b8afae2371ec88,
-            limb2: 0x1b806b1db4b99c64
+            limb0: 0xdfc003f9a88673620e26150f,
+            limb1: 0x460176b8b2cba92be947d4a3,
+            limb2: 0x1fa0f329b82e93f1
         },
         r1a1: u288 {
-            limb0: 0x74e29abe6bf99751070f2e81,
-            limb1: 0x813af917e5e24753938c9185,
-            limb2: 0x19a56a895f468788
+            limb0: 0xca5541d91fc80dbfc53d85f1,
+            limb1: 0xf3b1c0ee9ddfc24e2273acd0,
+            limb2: 0x4f5defea44cd43e
         }
     },
     G2Line {
@@ -3783,46 +3783,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x6750e288f293aebd2474ccc2,
-            limb1: 0xfb95b0240b5359437adb662a,
-            limb2: 0xbb61bb8b103e436
+            limb0: 0x9e5661a465b05869057fe27e,
+            limb1: 0xba655a456af90bf38328f8cc,
+            limb2: 0x5e8e28450ca83f
         },
         r0a1: u288 {
-            limb0: 0x5978bb6c3b87efaafdd095f5,
-            limb1: 0xd0fd6c11cc09c43fcb604f31,
-            limb2: 0x2f16a726e97dcbda
+            limb0: 0x2c3b1888174d6fb72829f575,
+            limb1: 0xd29a256c7aa1607cad34aac8,
+            limb2: 0x162b824883e7660
         },
         r1a0: u288 {
-            limb0: 0x18024e91de1c9d19c650a806,
-            limb1: 0xcebeb175840e717e5ddeaab6,
-            limb2: 0x11ba658871f4782f
+            limb0: 0x19e5ebbd11b3f38dda1b9c85,
+            limb1: 0x1127aaa4b870fd547839941,
+            limb2: 0x220d39ebaaac418d
         },
         r1a1: u288 {
-            limb0: 0x71bcb87fff58e054124a8bc,
-            limb1: 0x31eb60a88f5e2a885cc039d3,
-            limb2: 0x127d700bb5c7a823
+            limb0: 0x9030aa6a4e377759424d82b1,
+            limb1: 0x5c898034acedb7058ff0dfdf,
+            limb2: 0x6bb10d3692343b1
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xe179c30b2193328c75152098,
-            limb1: 0x913a8dc5fb64c422b0770d25,
-            limb2: 0x9d5d0b726f96c88
+            limb0: 0x3f011dfbad5d4e08ba7f07c1,
+            limb1: 0x7d40f5bb0ce7b3574d0c9bd4,
+            limb2: 0x11fc335b15a6b9c0
         },
         r0a1: u288 {
-            limb0: 0xa8ef6b15df082f28557501fd,
-            limb1: 0xfd43eb61ad1fdd6276d29287,
-            limb2: 0x1ed0a1e4504ae3aa
+            limb0: 0x994c15e6faf967eea0edc00c,
+            limb1: 0x1f0b59ad37e3fd6a6f8c330,
+            limb2: 0x4fe8a0121183e92
         },
         r1a0: u288 {
-            limb0: 0xbd63d4e68ae1fb07f8bba3b1,
-            limb1: 0x9282db7b9cc9f97c8b4ab608,
-            limb2: 0x865dc7ec1cc3686
+            limb0: 0xeddf48ac508ced465ce05e9,
+            limb1: 0xcb91d600a5a77568a938e847,
+            limb2: 0x1c219c20ea205c7
         },
         r1a1: u288 {
-            limb0: 0x900f1d2fd5ae7f482faef599,
-            limb1: 0xff55239c651f07d092482984,
-            limb2: 0x148a41d8cbfc6063
+            limb0: 0xc00c43876b3f99345a558a24,
+            limb1: 0x4e8cd2011d6862266f2aae0b,
+            limb2: 0x7c77d21e134f663
         }
     },
     G2Line {
@@ -3849,24 +3849,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x8e566ca87eb77f678f516880,
-            limb1: 0x9a75a83b6fd4941e468ab14a,
-            limb2: 0x1cd1900dcb266f3a
+            limb0: 0x3c11bcb43c44fc4b8625c741,
+            limb1: 0xd36829d204c7b77707aec0db,
+            limb2: 0x4b1974ba001a3f3
         },
         r0a1: u288 {
-            limb0: 0xb16f66cb478be906fba5b47d,
-            limb1: 0xbdb804151b45f2777ceec5f8,
-            limb2: 0xdcccb0c8e4d3b8b
+            limb0: 0xccc9db477c2135f78ef16617,
+            limb1: 0x1c686b4d3bbbd9d07f5f4f23,
+            limb2: 0x1c78f8733b1bddc7
         },
         r1a0: u288 {
-            limb0: 0x4fa549b8ab6993f4e5dd0c10,
-            limb1: 0x135f5a1f0c23cdabd8b628e2,
-            limb2: 0x102a4f8e223d2b51
+            limb0: 0x1339f2948c0563de89b76d07,
+            limb1: 0xe3f6c63bf98edc3af777b98d,
+            limb2: 0x13c1ac3e39977454
         },
         r1a1: u288 {
-            limb0: 0xa516d562b8c4e63308de7539,
-            limb1: 0xd981eb13502ea0c90443c5d,
-            limb2: 0x2fc3e991b6468c65
+            limb0: 0x87befc229c25e0ef150ed9f0,
+            limb1: 0x17b63de209ad94c7c43b97b9,
+            limb2: 0x7eb2f7b1e7b0d0
         }
     },
     G2Line {
@@ -3893,24 +3893,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0x1e64cad567422d62a870f12e,
-            limb1: 0x1be6ff6101721d1767076473,
-            limb2: 0xf603c9f3e9561c5
+            limb0: 0xf822406ad889ea232fd3b71d,
+            limb1: 0xe461180ed1e391fa39b506bd,
+            limb2: 0x121cb80e9146f28c
         },
         r0a1: u288 {
-            limb0: 0xac7141c42062ac579da23fe3,
-            limb1: 0x1f857e5677efa215ff388125,
-            limb2: 0xdf920a880a252de
+            limb0: 0xceb8c60b8fc0b78d3db00f2e,
+            limb1: 0xab92400dcd178fb614c60de9,
+            limb2: 0x2f03b918b786b95e
         },
         r1a0: u288 {
-            limb0: 0xe7a28b984333ab5048846c8c,
-            limb1: 0xae5e707bb88ff936cfbd025a,
-            limb2: 0x14e81949b2b3ee64
+            limb0: 0x3da23430cd738a8d7d6fee07,
+            limb1: 0x1a30730d2214e081650971a4,
+            limb2: 0x211e81f0bd6158ee
         },
         r1a1: u288 {
-            limb0: 0xbc0258196a6e76361f658c29,
-            limb1: 0xcbe3fb32726972cf8c8f190a,
-            limb2: 0x2c89e167853f2811
+            limb0: 0x344282214b7df9527c026531,
+            limb1: 0x526644b047ffcba816a426de,
+            limb2: 0x286f27a85b3440a6
         }
     },
     G2Line {
@@ -3937,24 +3937,24 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xb65dfe9e5a1c6eaf1fc0a7c2,
-            limb1: 0xa3438959ee44f51c077ac2e8,
-            limb2: 0x235f8bdfed7fb665
+            limb0: 0x7f210eff3e6a994cea1c0c66,
+            limb1: 0xea497350460c142c923b5546,
+            limb2: 0x9c59ac1acdd3eb2
         },
         r0a1: u288 {
-            limb0: 0xbfb9ee271a5f4f63d5cb6606,
-            limb1: 0xe3b44cfbc31327edd7329241,
-            limb2: 0x1e72ef37cb46ecdb
+            limb0: 0x42efe0740246d08378cf415a,
+            limb1: 0xe592ca588cb83bd85ebe6558,
+            limb2: 0x71e1fa0292445b3
         },
         r1a0: u288 {
-            limb0: 0xe612db33ac874ec50d583725,
-            limb1: 0x4448a351e6ca114dfb496a59,
-            limb2: 0x8ed56b8acdef334
+            limb0: 0xea9ef01c8c6db538da5eeb6d,
+            limb1: 0xb60e4f77267cf69660b023d6,
+            limb2: 0x107c953085341d3a
         },
         r1a1: u288 {
-            limb0: 0x1b50c01d2084b44f7399f53d,
-            limb1: 0x1ff87034c2b248fd41922598,
-            limb2: 0xc67dff0280486e4
+            limb0: 0x8cccd799419e7b59ec638cb8,
+            limb1: 0x39c107fac48303ed525526a2,
+            limb2: 0x66eb2bd6cc047ff
         }
     },
     G2Line {
@@ -4003,46 +4003,46 @@ pub const precomputed_lines: [
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xc3342be2ef4ee50a73031c50,
-            limb1: 0x2406961ec61ed037c31201a6,
-            limb2: 0x268997394025ae39
+            limb0: 0x936119de60e610943adf8508,
+            limb1: 0x7e38f4bc609c709f2b1b3923,
+            limb2: 0x37d54e01700ca19
         },
         r0a1: u288 {
-            limb0: 0xf89b0b0c737a3350ae377a9d,
-            limb1: 0xe6e516b4d44e7c41e45da13f,
-            limb2: 0x9842d40133ca3a6
+            limb0: 0x27fb2f7bef807dedd8cd00c0,
+            limb1: 0x4a72a0186e4ca8b59a373f06,
+            limb2: 0x19303ca50f8db99a
         },
         r1a0: u288 {
-            limb0: 0xdbc2858bf2a2d6a0ef0f8eba,
-            limb1: 0x65bf8119c5df7299926fdd87,
-            limb2: 0x20b7d6e98afaaa4f
+            limb0: 0xb99a3b6f4dcd88a68448527,
+            limb1: 0x7fa6e854ed1dc65e756629f1,
+            limb2: 0x190f0f8b80023017
         },
         r1a1: u288 {
-            limb0: 0x72d3353d9fc29f0818ade3db,
-            limb1: 0xdd0313bfda8f5c23c7bee6c5,
-            limb2: 0x29c2f7edd2a2dba4
+            limb0: 0x16a51de1330b181d0e0136a3,
+            limb1: 0x9adcee197f78c5fa0de9b59a,
+            limb2: 0x282c0ad247348f4c
         }
     },
     G2Line {
         r0a0: u288 {
-            limb0: 0xae41ac372a7689ae8c803ab8,
-            limb1: 0xb48282c97f6012007ee29a53,
-            limb2: 0x2dc6d5dca2546a63
+            limb0: 0x3f6f1d00b1db587c7fac988a,
+            limb1: 0x4de47c107539fd0b53950b16,
+            limb2: 0x2b32004db3c08f9b
         },
         r0a1: u288 {
-            limb0: 0xd25bee888061d19555fdd4dc,
-            limb1: 0x8438e1377bfd274d2e8d4574,
-            limb2: 0x44a88692b86b68b
+            limb0: 0xd9ced69f89697f9f7dcca0d,
+            limb1: 0xe90a191d19d6112c3702935e,
+            limb2: 0x122ec4fca3901acb
         },
         r1a0: u288 {
-            limb0: 0xb10e059acca0a5f474cb373e,
-            limb1: 0x9ce4008a6565045ddca11f73,
-            limb2: 0x2ca04c4ad9924ee3
+            limb0: 0x97f496f958cddc12f7c873,
+            limb1: 0xe8e4efbd26605a37d6caa055,
+            limb2: 0x7bbddabe6e1b53a
         },
         r1a1: u288 {
-            limb0: 0xd98ed52cf2316d76f61fca5a,
-            limb1: 0xf160e45b1d6a84362be01d74,
-            limb2: 0xc80d3abdad70a60
+            limb0: 0xa429d43b3e023c02d602f9cb,
+            limb1: 0xc056e55909a9c76c7ab04ca4,
+            limb2: 0x6309af1b69b6167
         }
     },
 ];

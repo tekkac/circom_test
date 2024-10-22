@@ -18,6 +18,7 @@ pub mod Groth16VerifierBN254 {
 
     const ECIP_OPS_CLASS_HASH: felt252 =
         0x7918f484291eb154e13d0e43ba6403e62dc1f5fbb3a191d868e2e37359f8713;
+    use starknet::ContractAddress;
 
     #[storage]
     struct Storage {}
@@ -82,6 +83,14 @@ pub mod Groth16VerifierBN254 {
             } else {
                 return (false, [].span());
             }
+        }
+    }
+    #[generate_trait]
+    impl InternalFunctions of InternalFunctionsTrait {
+        fn process_public_inputs(
+            ref self: ContractState, user: ContractAddress, public_inputs: Span<u256>,
+        ) { // Process the public inputs with respect to the caller address (user).
+        // Update the storage, emit events, call other contracts, etc.
         }
     }
 }

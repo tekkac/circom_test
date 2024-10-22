@@ -12,7 +12,7 @@ pub trait IPlanning<TContractState> {
     fn verify_allocation(
         ref self: TContractState, company: felt252, year: u32, proof: Span<felt252>
     );
-    fn get_allocation(ref self: TContractState, company: felt252, year: u32) -> u256;
+    fn get_allocation(self: @TContractState, company: felt252, year: u32) -> u256;
     fn register_company(ref self: TContractState, company: felt252, hash: u256);
     fn get_company(self: @TContractState, company: felt252) -> (ContractAddress, u256);
     fn get_verifier(self: @TContractState) -> ClassHash;
@@ -61,7 +61,7 @@ pub mod Planning {
             self.verified.entry((company, year)).write(allocation);
         }
 
-        fn get_allocation(ref self: ContractState, company: felt252, year: u32,) -> u256 {
+        fn get_allocation(self: @ContractState, company: felt252, year: u32,) -> u256 {
             self.verified.entry((company, year)).read().total
         }
 
